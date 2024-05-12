@@ -1,0 +1,225 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Sheet 1</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="https://www.w3.org/1999/xhtml">
+	<head id="top_Head1"><title>
+	SPS - Associates
+</title></head>
+		
+	<object id='printControl' viewastext  style='display:none'
+	classid='clsid:1663ed61-23eb-11d2-b92f-008048fdd814'
+	codebase='http://www.meadroid.com/scriptx/ScriptX.cab#Version=6,1,432,1'>
+	</object>
+	<style type="text/css" media="print,screen" >	
+	table{
+	   width:100%;
+	  }
+		thead {
+		display:table-header-group;
+		}
+		tbody {
+		display:table-row-group;
+		}
+		'CSS to turn of Headers and Footers and Set margin in the Print List
+		'@page { margin: 0; }
+	</style>
+	<body onload='javascript:PrintPage(0.20, 0.20, 0.20, 0.20);'>
+	<table width=800 height=100% border=0 CellPading="0" bordercolor='red'>
+	  <tr>
+	    <td class='bgWhite' valign=top>
+		
+	<style>
+		.x-menu {
+		z-index: 15000;
+		background: #f6f6f6 url(../images/default/menu/menu.gif) repeat-y;
+		padding: 2px;
+		margin-left: -12px;
+		margin-top: 3px;
+		color: #54555a;
+	}
+	.ui-menu {
+		padding: 0px;
+		margin: 0;
+		display:block;
+			font-family: verdana,arial,helvetica,sans-serif;
+	     font-size: 10pt;
+	}
+	.ui-menu .ui-menu-item .ui-state-hover,
+	.ui-menu .ui-menu-item .ui-state-active {
+		margin: -1px;
+			background-color: #0097cf; 
+			border: 1px solid #0097cf; 
+	}
+	.ui-menu .ui-menu-item-wrapper {
+	    position: relative;
+	    padding: 5px 1em 6px 1.4em;
+	}
+	.ui-menu .ui-menu-item {
+	    margin: 0;
+	    border-bottom: 1px solid #ebebeb;
+	    padding: 0;
+	}
+	.ui-autocomplete {
+	    max-height: 305px;
+	    overflow-y: auto;
+	    /* prevent horizontal scrollbar */
+	    overflow-x: hidden;
+	  }
+	  input[class*=" autoComplete"] {
+		 cursor: auto;
+	    background-color: #fff;
+	}
+	</style>
+	
+<style>
+.UserGuide {font-size:1rem; font-family:Roboto;}
+
+</style>
+
+	
+<table width='1300px'>
+   
+	<tr>
+		<td class='padBigLeft' colspan='2' style="padding-top:10px;">
+			<div class="tab-pane active" id="Associates">
+				<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Associates</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+<table><tr>
+<th align=left>Name</th>
+<th align=left>Contact</th>
+<th align=left>Code</th>
+<th align=left>Route</th>
+<th align=left>Type</th>
+<th align=left>Location</th>
+<th align=left>Sales Rep</th>
+<th align=left>Sec.SalesRep</th>
+<th align=left>Address</th>
+<th align=left>Suite</th>
+<th align=left>City</th>
+<th align=left>State</th>
+<th align=left>Zip</th>
+<th align=left>Country</th>
+<th align=left>Primary Phone</th>
+<th align=left>Secondary Phone</th>
+<th align=left>Fax</th>
+<th align=left>Mobile</th>
+<th align=left>Email</th>
+<th align=left>AccountingEmail</th>
+<th align=left>Website</th>
+<th align=left>Internal Notes</th>
+<th align=left>Status</th>
+</tr>
+<tr>
+<td >Eunice Dellinger</td>
+<td ></td>
+<td >Arlington</td>
+<td></td>
+<td ></td>
+<td >Dallas</td>
+<td >Leo</td>
+<td ></td>
+<td >2800 W Division St</td>
+<td >B4</td>
+<td >Arlington</td>
+<td >TX</td>
+<td >76012</td>
+<td ></td>
+<td >682-309-5018</td>
+<td ></td>
+<td ></td>
+<td ></td>
+<td >nicole@setinstonecountertops.net</td>
+<td ></td>
+<td ></td>
+<td ></td>
+<td ></td>
+</tr>
+</table>
+</body>
+</html>
+ 
+			</div>
+		</td>
+	</tr>
+</table>
+
+<script type="text/javascript">
+	$("#Status option[value='']").remove();
+	$("#Status").select2();
+    var type ='';
+    document.getElementById("dbAssociateName").focus();
+	$("#dbAddress").blur();
+	$("#dbPhoneFaxEmail").blur();
+	function submitForm()
+	{
+		$("#dbAssociateName").blur();
+		$("#dbAddress").blur();
+		$("#dbPhoneFaxEmail").blur();
+		var AssociateTypeArray = CheckString('Type');
+		location.href="listAssociates.aspx?list=listReport&tab=&sort=&order=&searchBy=&searchOperator=&dbSearchValue1=&dbSearchValue2=&q6="+AssociateTypeArray+"&q7="+$("#dbAssociateName").val()+"&q8="+$("#dbAddress").val()+"&q9="+$("#dbPhoneFaxEmail").val()+"&q10="+$("#Status").val();
+    }
+    function CheckString(name){
+    $checkedCheckboxes = $("input:checkbox[name="+ name +"]:checked");;
+    var selectedValues="";
+    $checkedCheckboxes.each(function () {
+    selectedValues +=  parseInt($(this).val()) +",";
+    });
+    if (name == 'Type')
+    type = selectedValues.substring(0, selectedValues.length - 1) ;
+    return selectedValues.substring(0, selectedValues.length - 1) ;
+    }
+</script>
+
+<style type="text/css">
+	.well {
+		min-height: 20px;
+		padding: 10px;
+		margin-top: -20px;
+		margin-bottom: 5px;
+		margin-left:8px;
+		background-color: #f5f5f5;
+		border: 1px solid #eee;
+		border: 1px solid rgba(0, 0, 0, 0.05);
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	}
+</style>

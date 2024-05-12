@@ -1,0 +1,219 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Sheet 1</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="https://www.w3.org/1999/xhtml">
+	<head id="top_Head1"><title>
+	SPS - List Tax Codes
+</title></head>
+		
+	<object id='printControl' viewastext  style='display:none'
+	classid='clsid:1663ed61-23eb-11d2-b92f-008048fdd814'
+	codebase='http://www.meadroid.com/scriptx/ScriptX.cab#Version=6,1,432,1'>
+	</object>
+	<style type="text/css" media="print,screen" >	
+	table{
+	   width:100%;
+	  }
+		thead {
+		display:table-header-group;
+		}
+		tbody {
+		display:table-row-group;
+		}
+		'CSS to turn of Headers and Footers and Set margin in the Print List
+		'@page { margin: 0; }
+	</style>
+	<body onload='javascript:PrintPage(0.20, 0.20, 0.20, 0.20);'>
+	<table width=800 height=100% border=0 CellPading="0" bordercolor='red'>
+	  <tr>
+	    <td class='bgWhite' valign=top>
+		
+	<style>
+		.x-menu {
+		z-index: 15000;
+		background: #f6f6f6 url(../images/default/menu/menu.gif) repeat-y;
+		padding: 2px;
+		margin-left: -12px;
+		margin-top: 3px;
+		color: #54555a;
+	}
+	.ui-menu {
+		padding: 0px;
+		margin: 0;
+		display:block;
+			font-family: verdana,arial,helvetica,sans-serif;
+	     font-size: 10pt;
+	}
+	.ui-menu .ui-menu-item .ui-state-hover,
+	.ui-menu .ui-menu-item .ui-state-active {
+		margin: -1px;
+			background-color: #0097cf; 
+			border: 1px solid #0097cf; 
+	}
+	.ui-menu .ui-menu-item-wrapper {
+	    position: relative;
+	    padding: 5px 1em 6px 1.4em;
+	}
+	.ui-menu .ui-menu-item {
+	    margin: 0;
+	    border-bottom: 1px solid #ebebeb;
+	    padding: 0;
+	}
+	.ui-autocomplete {
+	    max-height: 305px;
+	    overflow-y: auto;
+	    /* prevent horizontal scrollbar */
+	    overflow-x: hidden;
+	  }
+	  input[class*=" autoComplete"] {
+		 cursor: auto;
+	    background-color: #fff;
+	}
+	</style>
+	
+<style>
+.UserGuide {font-size:1rem; font-family:Roboto;}
+
+</style>
+
+
+
+<div class="tab-pane active" id="Items">
+	
+	<table width="1200" height="515" valign='top'>
+	<tr><td colspan='2' valign='top'>
+	<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Tax Jurisdiction Codes</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+<table><tr>
+<th align=right style='vnd.ms-excel.numberformat:@'>SO</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Code</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Label</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>CurrentRate</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Rate</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>City</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>County</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>State</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Zip</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Pur. Tax</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Sal. Tax</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Use Tax</th>
+<th align=left style='vnd.ms-excel.numberformat:@'></th>
+</tr>
+<tr>
+<td class='right'><a href='vTaxCode.aspx?ID=1'>10</a></td>
+<td><a href='vTaxCode.aspx?ID=1'>Zero Tax</a></td>
+<td><a href='vTaxCode.aspx?ID=1'>Zero Tax</a></td>
+<td class='right'>0 %</td>
+<td class='center'><img src='image/Pending.png' align='absmiddle' title='This tax code has been selected in a few transactions. Editing is not permitted.'></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href='vTaxCode.aspx?ID=1'>on</a></td>
+<td><a href='vTaxCode.aspx?ID=1'>on</a></td>
+<td><a href='vTaxCode.aspx?ID=1'>on</a></td>
+<td class='center'><a href='#' ID='pover_TaxCodeDetail_1' data-title="<table width=100%><tr><td class='left lblue veryBig' style='font-family:Trebuchet MS'>Edit Tax Code - Zero Tax</td><td class='right'><button class='btn  btn-small' onClick=$('#pover_TaxCodeDetail_1').popover('hide');>x</button></td></tr></table>" data-html='true' data-load='cTaxCodeNameDetail.aspx?ID=1' data-placement='right'  data-trigger='manual' class='EditTaxCodeLayer2'><img src='image/Topbar_Editbtn.png'></a></td>
+</tr>
+<tr>
+<td class='right'><a href='vTaxCode.aspx?ID=2'>20</a></td>
+<td><a href='vTaxCode.aspx?ID=2'>8.25%</a></td>
+<td><a href='vTaxCode.aspx?ID=2'>VS - Dallas</a></td>
+<td class='right'>8.25 %</td>
+<td class='center'><img src='image/Pending.png' align='absmiddle' title='This tax code has been selected in a few transactions. Editing is not permitted.'></td>
+<td>Dallas</td>
+<td>Dallas County</td>
+<td>TX</td>
+<td>75229</td>
+<td><a href='vTaxCode.aspx?ID=2'></a></td>
+<td><a href='vTaxCode.aspx?ID=2'>on</a></td>
+<td><a href='vTaxCode.aspx?ID=2'></a></td>
+<td class='center'><a href='#' ID='pover_TaxCodeDetail_2' data-title="<table width=100%><tr><td class='left lblue veryBig' style='font-family:Trebuchet MS'>Edit Tax Code - 8.25%</td><td class='right'><button class='btn  btn-small' onClick=$('#pover_TaxCodeDetail_2').popover('hide');>x</button></td></tr></table>" data-html='true' data-load='cTaxCodeNameDetail.aspx?ID=2' data-placement='right'  data-trigger='manual' class='EditTaxCodeLayer2'><img src='image/Topbar_Editbtn.png'></a></td>
+</tr>
+<tr>
+<td class='right'><a href='vTaxCode.aspx?ID=3'>30</a></td>
+<td><a href='vTaxCode.aspx?ID=3'>8.25</a></td>
+<td><a href='vTaxCode.aspx?ID=3'>SEATTLE MGX</a></td>
+<td class='right'>10 %</td>
+<td class='center'><img src='image/Pending.png' align='absmiddle' title='This tax code has been selected in a few transactions. Editing is not permitted.'></td>
+<td>Kent</td>
+<td>King</td>
+<td>WA</td>
+<td>98031</td>
+<td><a href='vTaxCode.aspx?ID=3'></a></td>
+<td><a href='vTaxCode.aspx?ID=3'></a></td>
+<td><a href='vTaxCode.aspx?ID=3'></a></td>
+<td class='center'><a href='#' ID='pover_TaxCodeDetail_3' data-title="<table width=100%><tr><td class='left lblue veryBig' style='font-family:Trebuchet MS'>Edit Tax Code - 8.25</td><td class='right'><button class='btn  btn-small' onClick=$('#pover_TaxCodeDetail_3').popover('hide');>x</button></td></tr></table>" data-html='true' data-load='cTaxCodeNameDetail.aspx?ID=3' data-placement='right'  data-trigger='manual' class='EditTaxCodeLayer2'><img src='image/Topbar_Editbtn.png'></a></td>
+</tr>
+</table>
+</body>
+</html>
+
+	</td></tr>
+	</table>
+	
+
+</div>
+
+<script type="text/javascript" >
+
+	 $('#ListTaxCodeInfoTable').tablePagination({'title':'Tax Codes'});
+	 $('#ListTaxCodeInfoTable').tablePagination({'rowsPerPage': 100});
+
+	 $(".EditTaxCodeLayer").click(function(e){
+		 var $this = $(this);
+		 $.get($this.attr('data-load'), {'z':new Date().getTime()}, function(data){
+			 $this.attr('data-content', data);
+			 $this.popover('show');
+
+		 });
+		e.preventDefault();
+		return false;
+	 });
+
+	 	 $(".EditTaxCodeLayer2").click(function(e){
+		 var $this = $(this);
+		 $.get($this.attr('data-load'), {'z':new Date().getTime()}, function(data){
+			 $this.attr('data-content', data);
+			 $this.popover('show');
+
+		 });
+		e.preventDefault();
+		return false;
+	 });
+
+</script>

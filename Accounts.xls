@@ -1,0 +1,1107 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Sheet 1</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="https://www.w3.org/1999/xhtml">
+	<head id="top_Head1"><title>
+	SPS - Accounts
+</title></head>
+		
+	<object id='printControl' viewastext  style='display:none'
+	classid='clsid:1663ed61-23eb-11d2-b92f-008048fdd814'
+	codebase='http://www.meadroid.com/scriptx/ScriptX.cab#Version=6,1,432,1'>
+	</object>
+	<style type="text/css" media="print,screen" >	
+	table{
+	   width:100%;
+	  }
+		thead {
+		display:table-header-group;
+		}
+		tbody {
+		display:table-row-group;
+		}
+		'CSS to turn of Headers and Footers and Set margin in the Print List
+		'@page { margin: 0; }
+	</style>
+	<body onload='javascript:PrintPage(0.20, 0.20, 0.20, 0.20);'>
+	<table width=800 height=100% border=0 CellPading="0" bordercolor='red'>
+	  <tr>
+	    <td class='bgWhite' valign=top>
+		
+	<style>
+		.x-menu {
+		z-index: 15000;
+		background: #f6f6f6 url(../images/default/menu/menu.gif) repeat-y;
+		padding: 2px;
+		margin-left: -12px;
+		margin-top: 3px;
+		color: #54555a;
+	}
+	.ui-menu {
+		padding: 0px;
+		margin: 0;
+		display:block;
+			font-family: verdana,arial,helvetica,sans-serif;
+	     font-size: 10pt;
+	}
+	.ui-menu .ui-menu-item .ui-state-hover,
+	.ui-menu .ui-menu-item .ui-state-active {
+		margin: -1px;
+			background-color: #0097cf; 
+			border: 1px solid #0097cf; 
+	}
+	.ui-menu .ui-menu-item-wrapper {
+	    position: relative;
+	    padding: 5px 1em 6px 1.4em;
+	}
+	.ui-menu .ui-menu-item {
+	    margin: 0;
+	    border-bottom: 1px solid #ebebeb;
+	    padding: 0;
+	}
+	.ui-autocomplete {
+	    max-height: 305px;
+	    overflow-y: auto;
+	    /* prevent horizontal scrollbar */
+	    overflow-x: hidden;
+	  }
+	  input[class*=" autoComplete"] {
+		 cursor: auto;
+	    background-color: #fff;
+	}
+	</style>
+	
+<style>
+.UserGuide {font-size:1rem; font-family:Roboto;}
+
+</style>
+
+
+<div  id="Accounts">
+<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Accounts</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+<table><tr>
+<th align=left style='vnd.ms-excel.numberformat:@'>Account Number</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Account Name</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Alternate Number</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Alternate Name</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Account Type</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Account Sub Type</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Special Account Type</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Sub Account Of</th>
+<th align=right style='vnd.ms-excel.numberformat:@'>Balance</th>
+<th align=left style='vnd.ms-excel.numberformat:@'>Status</th>
+</tr>
+<tr>
+<td style='font-weight:bold;'>123</td>
+<td style='font-weight:bold;'>SPS AR Income Clearing Account</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Accounts Receivable</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>124</td>
+<td style='font-weight:bold;'>SPS Intercompany - Due to</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Other Current Assets</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>125</td>
+<td style='font-weight:bold;'>SPS Intercompany - Due from</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Other Current Assets</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1001</td>
+<td style='font-weight:bold;'>Trucks</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Fixed Assets</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$220,121.77</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1002</td>
+<td style='font-weight:bold;'>Forklift</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Fixed Assets</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$93,605.66</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1003</td>
+<td style='font-weight:bold;'>Automobile (Company cars)</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Fixed Assets</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$51,000.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1010</td>
+<td style='font-weight:bold;'>AP Expense Clearing Account</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Accounts Payable</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1020</td>
+<td style='font-weight:bold;'>Accounts Payable</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Accounts Payable</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>- $32,494,215.84</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1030</td>
+<td style='font-weight:bold;'>AR Income Clearing Account</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Accounts Receivable</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>- $779,670.33</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1040</td>
+<td style='font-weight:bold;'>Accounts Receivable</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Accounts Receivable</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$32,790,864.87</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;background-color:#ffeeee;'>1050</td>
+<td style='font-weight:bold;background-color:#ffeeee;'>Chase Checking Bank</td>
+<td style='font-weight:bold;background-color:#ffeeee;'></td>
+<td style='font-weight:bold;background-color:#ffeeee;'></td>
+<td style='font-weight:bold;background-color:#ffeeee;'>Bank</td>
+<td style='font-weight:bold;background-color:#ffeeee;'></td>
+<td style='font-weight:bold;background-color:#ffeeee;'></td>
+<td style='font-weight:bold;background-color:#ffeeee;'></td>
+<td style='font-weight:bold;background-color:#ffeeee;' class='right'>- $23,202.42</td>
+<td style='font-weight:bold;background-color:#ffeeee;'>Inactive</td>
+</tr>
+<tr>
+<td style='font-weight:bold;background-color:#ffeeee;'>1052</td>
+<td style='font-weight:bold;background-color:#ffeeee;'>Frost Checking Bank</td>
+<td style='font-weight:bold;background-color:#ffeeee;'></td>
+<td style='font-weight:bold;background-color:#ffeeee;'></td>
+<td style='font-weight:bold;background-color:#ffeeee;'>Bank</td>
+<td style='font-weight:bold;background-color:#ffeeee;'></td>
+<td style='font-weight:bold;background-color:#ffeeee;'></td>
+<td style='font-weight:bold;background-color:#ffeeee;'></td>
+<td style='font-weight:bold;background-color:#ffeeee;' class='right'>$644,643.27</td>
+<td style='font-weight:bold;background-color:#ffeeee;'>Inactive</td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1057</td>
+<td style='font-weight:bold;'>Wells Fargo Checking Acct</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Bank</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$3,326,308.52</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1067</td>
+<td style='font-weight:bold;'>Amex Credit Card</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Current Liabilities</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>CreditCard</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$73,430.58</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1070</td>
+<td style='font-weight:bold;'>Cash</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Cash</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$6,299,230.18</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1071</td>
+<td style='font-weight:bold;'>Others - Roundoff Adjustment</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Cash</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>- $454,071.51</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1072</td>
+<td style='font-weight:bold;'>MGX Account</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Cash</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$264,776.65</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1073</td>
+<td style='font-weight:bold;'>AR/AP Offset</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Bank</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>- $4,685,405.11</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style=''>1075</td>
+<td style=''>Undeposited Funds</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Cash</td>
+<td style=''></td>
+<td style=''>Undeposited funds</td>
+<td style=''>Cash</td>
+<td style='' class='right'>$0.00</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1080</td>
+<td style='font-weight:bold;'>Material Purchases and Freight</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Cost Of Goods</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$69,705,115.62</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1120</td>
+<td style='font-weight:bold;'>V_Advance Rent</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Current Assets</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1140</td>
+<td style='font-weight:bold;'>Depreciation Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Depreciation</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1150</td>
+<td style='font-weight:bold;'>Capital Stock</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Equity</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1151</td>
+<td style='font-weight:bold;'>Loan to shareholder</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Equity</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$107,462.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1160</td>
+<td style='font-weight:bold;'>Additional Capital Contribution</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Equity</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>- $295,600.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1180</td>
+<td style='font-weight:bold;'>Advertising and Promotion</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>G&A Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$5,692.72</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1190</td>
+<td style='font-weight:bold;'>Bank Service Charges</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>G&A Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$273,393.91</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1200</td>
+<td style='font-weight:bold;'>Commission Fees</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>G&A Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$78,867.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1210</td>
+<td style='font-weight:bold;'>Freight</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Cost Of Goods</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Freight Charges</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$13,102,383.41</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style=''>1212</td>
+<td style=''>Estimated Freight PTW</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Cost Of Goods</td>
+<td style=''></td>
+<td style=''>Freight Charges</td>
+<td style=''>Freight</td>
+<td style='' class='right'>$0.00</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1213</td>
+<td style=''>Material Charges</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Cost Of Goods</td>
+<td style=''>Material</td>
+<td style=''></td>
+<td style=''>Material Purchases and Freight</td>
+<td style='' class='right'>$12,910.00</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1214</td>
+<td style='font-weight:bold;'>Freight - Surcharge</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Sales Income</td>
+<td style='font-weight:bold;'>Sales</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1215</td>
+<td style='font-weight:bold;'>Fuel - Wexfleet</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Cost Of Goods</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$186,897.52</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1220</td>
+<td style='font-weight:bold;'>Office Supplies</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>G&A Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$45,651.16</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1230</td>
+<td style='font-weight:bold;'>Meals and Entertainment</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>G&A Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1250</td>
+<td style='font-weight:bold;'>Interest Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>G&A Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1260</td>
+<td style='font-weight:bold;'>Postage and Delivery</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>G&A Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$268.45</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1270</td>
+<td style='font-weight:bold;'>Misc Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>G&A Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>- $0.12</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1271</td>
+<td style='font-weight:bold;'>Accommodation expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>G&A Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$5,306.88</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1280</td>
+<td style='font-weight:bold;'>Business License & Permits</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>G&A Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1290</td>
+<td style='font-weight:bold;'>Auto and Truck Expenses</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>G&A Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$100.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1300</td>
+<td style='font-weight:bold;'>Equipment Rental</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>G&A Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style=''>1310</td>
+<td style=''>Insurance Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$88,979.88</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1330</td>
+<td style='font-weight:bold;'>Inventory Asset</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Inventory</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Inventory Adjustment</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$7,497,433.80</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1335</td>
+<td style='font-weight:bold;'>Inventory Clearing Account</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Inventory</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>- $989,639.39</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1340</td>
+<td style='font-weight:bold;'>Inventory - In Transit</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Inventory</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$408,041.04</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1350</td>
+<td style='font-weight:bold;'>Inventory - Adjustments</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Cost Of Goods</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Inventory Adjustment</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1360</td>
+<td style='font-weight:bold;'>Inventory on Transfer</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Inventory</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1370</td>
+<td style='font-weight:bold;'>Restocking Fee expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Operating Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1380</td>
+<td style='font-weight:bold;'>Accounting fees</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Operating Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$22,500.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1390</td>
+<td style='font-weight:bold;'>Discount allowed</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Operating Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1400</td>
+<td style='font-weight:bold;'>Operating expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Operating Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$867.13</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1410</td>
+<td style='font-weight:bold;'>Professional Fees</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Operating Expense</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$4,920.56</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1450</td>
+<td style='font-weight:bold;'>Sales Tax Payable</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Other Current Liabilities</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Sales tax payable</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>- $1,777,529.67</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1460</td>
+<td style='font-weight:bold;'>Restocking Fee income</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Other Income</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1470</td>
+<td style='font-weight:bold;'>Interest Income</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Other Income</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1480</td>
+<td style='font-weight:bold;'>Other Income</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Other Income</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1490</td>
+<td style='font-weight:bold;'>Purchase discount</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Other Income</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>- $72,329.11</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1500</td>
+<td style='font-weight:bold;'>Retained Earnings</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Retained Earnings</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1510</td>
+<td style='font-weight:bold;'>Dividends Paid</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Retained Earnings</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$0.00</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1520</td>
+<td style='font-weight:bold;'>Sales</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Sales Income</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$97,551,742.30</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style=''>1210-A-1</td>
+<td style=''>Third party delivery</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Cost Of Goods</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Freight</td>
+<td style='' class='right'>$44,840.00</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-1</td>
+<td style=''>Utilities Gas, Water, Electric</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$66,121.09</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-10</td>
+<td style=''>Stone Profits</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$73,450.73</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style='font-weight:bold;'>1400-A-11</td>
+<td style='font-weight:bold;'>Tolls</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'>Cost Of Goods</td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;'></td>
+<td style='font-weight:bold;' class='right'>$36,506.77</td>
+<td style='font-weight:bold;'></td>
+</tr>
+<tr>
+<td style=''>1400-A-12</td>
+<td style=''>Sales expense - fuel</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$29,441.18</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-13</td>
+<td style=''>Sales expense - meal</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$58,532.30</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-14</td>
+<td style=''>Repairs & maintenance</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$72,744.10</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-15</td>
+<td style=''>Sales expense - travel</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$71,047.51</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-16</td>
+<td style=''>Software expenses</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$28,038.02</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-17</td>
+<td style=''>Taxes</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$4,010.42</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-18</td>
+<td style=''>Warehouse Consumables</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$15,454.10</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-19</td>
+<td style=''>Office cleaning</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$3,600.00</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-2</td>
+<td style=''>ADP fees</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$10,443.40</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-3</td>
+<td style=''>Payroll expenses</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$1,576,324.78</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-4</td>
+<td style=''>Payroll taxes</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$425,290.07</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-5</td>
+<td style=''>Internet - Spectrum</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$9,626.16</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-6</td>
+<td style=''>Rent expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$1,091,996.09</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-7</td>
+<td style=''>Disposal fees - Supreme Recycling</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$33,441.38</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-8</td>
+<td style=''>Office expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$7,534.58</td>
+<td style=''></td>
+</tr>
+<tr>
+<td style=''>1400-A-9</td>
+<td style=''>Phone expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating Expense</td>
+<td style=''></td>
+<td style=''></td>
+<td style=''>Operating expense</td>
+<td style='' class='right'>$8,797.19</td>
+<td style=''></td>
+</tr>
+</table>
+</body>
+</html>
+
+
+</div>

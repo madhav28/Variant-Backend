@@ -1,0 +1,517 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Sheet 1</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="https://www.w3.org/1999/xhtml">
+	<head id="top_Head1"><title>
+	SPS - Consignment Locations
+</title></head>
+		
+	<object id='printControl' viewastext  style='display:none'
+	classid='clsid:1663ed61-23eb-11d2-b92f-008048fdd814'
+	codebase='http://www.meadroid.com/scriptx/ScriptX.cab#Version=6,1,432,1'>
+	</object>
+	<style type="text/css" media="print,screen" >	
+	table{
+	   width:100%;
+	  }
+		thead {
+		display:table-header-group;
+		}
+		tbody {
+		display:table-row-group;
+		}
+		'CSS to turn of Headers and Footers and Set margin in the Print List
+		'@page { margin: 0; }
+	</style>
+	<body onload='javascript:PrintPage(0.20, 0.20, 0.20, 0.20);'>
+	<table width=800 height=100% border=0 CellPading="0" bordercolor='red'>
+	  <tr>
+	    <td class='bgWhite' valign=top>
+		
+	<style>
+		.x-menu {
+		z-index: 15000;
+		background: #f6f6f6 url(../images/default/menu/menu.gif) repeat-y;
+		padding: 2px;
+		margin-left: -12px;
+		margin-top: 3px;
+		color: #54555a;
+	}
+	.ui-menu {
+		padding: 0px;
+		margin: 0;
+		display:block;
+			font-family: verdana,arial,helvetica,sans-serif;
+	     font-size: 10pt;
+	}
+	.ui-menu .ui-menu-item .ui-state-hover,
+	.ui-menu .ui-menu-item .ui-state-active {
+		margin: -1px;
+			background-color: #0097cf; 
+			border: 1px solid #0097cf; 
+	}
+	.ui-menu .ui-menu-item-wrapper {
+	    position: relative;
+	    padding: 5px 1em 6px 1.4em;
+	}
+	.ui-menu .ui-menu-item {
+	    margin: 0;
+	    border-bottom: 1px solid #ebebeb;
+	    padding: 0;
+	}
+	.ui-autocomplete {
+	    max-height: 305px;
+	    overflow-y: auto;
+	    /* prevent horizontal scrollbar */
+	    overflow-x: hidden;
+	  }
+	  input[class*=" autoComplete"] {
+		 cursor: auto;
+	    background-color: #fff;
+	}
+	</style>
+	
+<style>
+.UserGuide {font-size:1rem; font-family:Roboto;}
+
+</style>
+
+
+<div class="tab-pane active" id="Users">
+<!-- Start - Added to show Active, Inactive Consignment Locations individually - Swathi - 25th February 2020 -->
+
+<!-- End - Added to show Active, Inactive Consignment Locations individually - Swathi - 25th February 2020 -->
+	
+	<table>
+		
+		<tr>
+			<td>
+			<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Consignment Locations</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+<table><tr>
+<th align=left>Location Name</th>
+<th align=left>Parent Location</th>
+<th align=left>SetUp Date</th>
+<th align=left>Type</th>
+<th align=left>Billing Address</th>
+<th align=left>Shipping Address</th>
+<th align=left>Phones</th>
+<th align=left>Sales Rep</th>
+<th align=left>Price Level</th>
+<th align=left>Pmt.Terms/Sales Tax</th>
+<th align=left>Internal Notes</th>
+<th align=left>Status</th>
+</tr>
+<tr>
+<td ><b>Acue Marmonite</b> (1351)<br/>Contact Name: RajYadav<br/><a class='underline' href='mailto:Raj.yadav@acuemarmonite.com'><span class='lblue'>E: Raj.yadav@acuemarmonite.com</span></a></td>
+<td >Dallas</td>
+<td >8/19/2023</td>
+<td >Fabricator</td>
+<td >1400 N Interstate 35E 108 Carrollton TX 75006 </td>
+<td >1400 N Interstate 35E 108 Carrollton TX 75006 </td>
+<td >P: <a href ='tel:9723703493'>972-370-3493</a><br/>M: <a href ='tel:4698797222'>469-879-7222</a></td>
+<td >Oscar Rodriguez</td>
+<td>P1-Retail</td>
+<td >Net 60<br>Zero Tax - Zero Tax</td>
+<td ></td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Bernardos Granite</b> (2391)<br/>Contact Name: Bernardo Pineda<br/><a class='underline' href='mailto:bernardopineda86@yahoo.com'><span class='lblue'>E: bernardopineda86@yahoo.com</span></a></td>
+<td >Dallas</td>
+<td >3/3/2023</td>
+<td >Fabricator</td>
+<td >11362 FM 848 Tyler TX 75707 </td>
+<td >11362 FM 848 Tyler TX 75707 </td>
+<td >P: <a href ='tel:9033303822'>903.330.3822</a><br/>M: <a href ='tel:9033303822'>903.330.3822</a></td>
+<td >jose</td>
+<td>P1-Retail</td>
+<td >Net 30<br>8.25% - VS - Dallas</td>
+<td ></td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Carpets Unlimited</b> (2695)<br/>Contact Name: Rudy & Hope Renteria<br/><a class='underline' href='mailto:Carpetsunlimited@hotmail.com'><span class='lblue'>E: Carpetsunlimited@hotmail.com</span></a></td>
+<td >Dallas</td>
+<td >4/19/2023</td>
+<td >Fabricator</td>
+<td >3852 Canyon Drive Amarillo TX 79109 </td>
+<td >3852 Canyon Drive Amarillo TX 79109 </td>
+<td >P: <a href ='tel:8062900034'>(806)290-0034</a><br/>P: <a href ='tel:8063539467'>806-353-9467</a><br/></td>
+<td >Jaime</td>
+<td>P2-Fabricators</td>
+<td >Net 30<br>Zero Tax - Zero Tax</td>
+<td > CUSTOMER IS TAX EXEMPT - REMOVE TAX </td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Casa Blanca Granite Marble & Tile LLC</b> (1621)<br/>Contact Name: Salvador Sr<br/><a class='underline' href='mailto:casablancagranite@rocketmail.com'><span class='lblue'>E: casablancagranite@rocketmail.com</span></a></td>
+<td >Dallas</td>
+<td >3/16/2020</td>
+<td >Fabricator</td>
+<td >8124 Stagecoach Rd Litte Rock AR 72210 </td>
+<td >8124 Stagecoach Rd Litte Rock AR 72210 </td>
+<td >P: <a href ='tel:5014552520'>501-455-2520</a><br/>M: <a href ='tel:5013527070'>501-352-7070</a></td>
+<td >Jaime</td>
+<td>P3-Loyal</td>
+<td >Net 90<br>8.25% - VS - Dallas</td>
+<td > NET 90</td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Diamond A- CutStone / Ashcraft</b> (1367)<br/>Contact Name: Scott McMillan<br/><a class='underline' href='mailto:scott@ashcraftmarble.com,andrew@ashcraftmarble.com'><span class='lblue'>E: scott@ashcraftmarble.com,andrew@ashcraftmarble.com</span></a></td>
+<td >Dallas</td>
+<td >6/19/2023</td>
+<td >Fabricator</td>
+<td >13822 HWY 155 SOUTH Tyler TX 75703 </td>
+<td >13822 HWY 155 SOUTH Tyler TX 75703 </td>
+<td >P: <a href ='tel:9035815501'>903-581-5501</a><br/>P: <a href ='tel:9035815501'>903-581-5501</a><br/></td>
+<td >Jaime</td>
+<td>P2-Fabricators</td>
+<td >COD<br>Zero Tax - Zero Tax</td>
+<td ></td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Emcar Marble & Granite</b> (1631)<br/>Contact Name: Carlos Gallegos<br/><a class='underline' href='mailto:carlos.emcar@gmail.com,norma.emcar@gmail.com,Emilyj.emcar@gmail.com'><span class='lblue'>E: carlos.emcar@gmail.com,norma.emcar@gmail.com,Emilyj.emcar@gmail.com</span></a></td>
+<td >Dallas</td>
+<td >8/28/2018</td>
+<td >Fabricator</td>
+<td >2400 Spring St Hot Springs AR 71901 </td>
+<td >2400 Spring St Hot Springs AR 71901 </td>
+<td >P: <a href ='tel:5015450409'>501-545-0409 Carlos</a><br/>M: <a href ='tel:5016257194'>501-625-7194</a></td>
+<td >Jaime</td>
+<td>P3-Loyal</td>
+<td >Net 60<br>8.25% - VS - Dallas</td>
+<td > Payment Terms: Net 60</td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>German Granite & Marble</b> (2103)<br/>Contact Name: German<br/><span style='color:red'>No Email</span></td>
+<td >Dallas</td>
+<td >7/14/2022</td>
+<td >Fabricator</td>
+<td >3901 Memorial Dr Waco TX 76711 </td>
+<td >3901 Memorial Dr Waco TX 76711 </td>
+<td >P: <a href ='tel:2546400399'>254-640-0399</a><br/></td>
+<td >Karime</td>
+<td>P3-Loyal</td>
+<td >Net 90<br>8.25% - VS - Dallas</td>
+<td ></td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Legacy Stone</b> (1902)<br/>Contact Name: Curtis<br/><a class='underline' href='mailto:curtis@legacystonetx.com'><span class='lblue'>E: curtis@legacystonetx.com</span></a></td>
+<td >Dallas</td>
+<td >4/19/2023</td>
+<td ></td>
+<td >210 James St Roanoke TX 76262 </td>
+<td >210 James St Roanoke TX 76262 </td>
+<td >P: <a href ='tel:8173457644'>817-345-7644</a><br/>M: <a href ='tel:8176821460'>817-682-1460</a></td>
+<td >Oscar Rodriguez</td>
+<td>P2-Fabricators</td>
+<td >Net 60<br>Zero Tax - Zero Tax</td>
+<td ></td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Midway Marble & Granite</b> (2640)<br/>Contact Name: Nancy Williams<br/><a class='underline' href='mailto:midwaygranite3@gmail.com'><span class='lblue'>E: midwaygranite3@gmail.com</span></a></td>
+<td >Dallas</td>
+<td >12/9/2022</td>
+<td >Fabricator</td>
+<td >407 MidwayRd. El Dorado AR 71730 </td>
+<td >407 MidwayRd. El Dorado AR 71730 </td>
+<td >P: <a href ='tel:8708819513'>870-881-9513</a><br/>P: <a href ='tel:8703120005'>870-312-0005</a><br/></td>
+<td >Jaime</td>
+<td>P2-Fabricators</td>
+<td >COD<br>8.25% - VS - Dallas</td>
+<td ></td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Monsivais Granite</b> (1857)<br/>Contact Name: Diana<br/><a class='underline' href='mailto:Monsivaisgranite@gmail.com'><span class='lblue'>E: Monsivaisgranite@gmail.com</span></a></td>
+<td >Dallas</td>
+<td >2/23/2023</td>
+<td >Fabricator</td>
+<td >2728 Bus 287J Iowa Park TEXAS 76367 </td>
+<td >2728 Bus 287J Iowa Park TEXAS 76367 </td>
+<td >P: <a href ='tel:4695635015'>469-563-5015</a><br/></td>
+<td >jose</td>
+<td>P1-Retail</td>
+<td >30 days<br>8.25% - VS - Dallas</td>
+<td >  
+  #Christina Guerrero Nov 21, 8:17 AM:#DO NOT RELEASE ANY MATERIAL UNLESS APPROVED BY DIANA 
+  #Christina Guerrero Nov 30, 9:01 AM:#ASK JOSE OR CHRISTINA BEFORE RELEASING ANY MATERIAL FOR THIS ACCOUNT</td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Noriegas Custom Cabinets & Granite</b> (1622)<br/>Contact Name: Grace & Israel<br/><a class='underline' href='mailto:noriegasgranite_1@yahoo.com'><span class='lblue'>E: noriegasgranite_1@yahoo.com</span></a></td>
+<td >Dallas</td>
+<td >1/6/2021</td>
+<td ></td>
+<td > TX  </td>
+<td >904 North Greer Blvd Pittsburg TX 75686 </td>
+<td >P: <a href ='tel:9032852978'>903-285-2978</a><br/>P: <a href ='tel:9037174504'>Israel 903-717-4504</a><br/>M: <a href ='tel:9038559080'>903-855-9080</a></td>
+<td >Jaime</td>
+<td>P2-Fabricators</td>
+<td >Net 60<br>Zero Tax - Zero Tax</td>
+<td > Verify Ship to address they have multiple locations.
+
+PAYMENT TERMS : NET 60   </td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Prizm Stone Corp SPK</b> (1800)<br/><a class='underline' href='mailto:jeremy@prizmstone.com'><span class='lblue'>E: jeremy@prizmstone.com</span></a></td>
+<td >Dallas</td>
+<td >1/1/2020</td>
+<td >Distributor</td>
+<td >16927 E Euclid Suite 2 Spokane Valley WA 99216 </td>
+<td >16927 E Euclid Suite 2 Spokane Valley WA 99216 </td>
+<td >P: <a href ='tel:5098660880'>(509) 866-0880</a><br/></td>
+<td >Srini</td>
+<td>P4-Partner</td>
+<td >Net 30<br>Zero Tax - Zero Tax</td>
+<td ></td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Quality Granite & Marble</b> (1361)<br/>Contact Name: Lazaro Hernandez<br/><a class='underline' href='mailto:Lazaro@qgamc.com'><span class='lblue'>E: Lazaro@qgamc.com</span></a></td>
+<td >Dallas</td>
+<td >3/6/2023</td>
+<td >Fabricator</td>
+<td >12084 FM 3245 Diana TX 75640 </td>
+<td >12084 FM 3245 Diana TX 75640 </td>
+<td >P: <a href ='tel:9036630077'>903-663-0077</a><br/>M: <a href ='tel:9034315481'>903-431-5481</a></td>
+<td >Jaime</td>
+<td>P2-Fabricators</td>
+<td >Net 15<br>8.25% - VS - Dallas</td>
+<td ></td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>ROCA Granite</b> (2413)<br/>Contact Name: Raul Violantes Jonathan Violantes Irene Violantes<br/><a class='underline' href='mailto:raul@rocagranite.com'><span class='lblue'>E: raul@rocagranite.com</span></a></td>
+<td >Dallas</td>
+<td >9/1/2021</td>
+<td >Distributor</td>
+<td >2871 E Robinson Ave Springdale AR 72764 </td>
+<td >2871 E Robinson Ave Springdale AR 72764 </td>
+<td >P: <a href ='tel:4795750352'>Irene 479.575.0352</a><br/>P: <a href ='tel:4799576659'>Raul 479.957.6659</a><br/>M: <a href ='tel:479966617'>Jonathan 479.966.617</a></td>
+<td >Jaime</td>
+<td>P1-Retail</td>
+<td >Net 60<br>Zero Tax - Zero Tax</td>
+<td > PAYMENT TERMS : NET 60</td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Royal Granite And Quartz</b> (2173)<br/>Contact Name: Tiffany Percefull<br/><a class='underline' href='mailto:TPERCEFULL18@GMAIL.COM'><span class='lblue'>E: TPERCEFULL18@GMAIL.COM</span></a></td>
+<td >Dallas</td>
+<td >1/6/2021</td>
+<td ></td>
+<td >  </td>
+<td >6914 Albert Pike AR 71868  </td>
+<td >P: <a href ='tel:5017602181'>501.760.2181</a><br/>M: <a href ='tel:5017651204'>501.765.1204</a></td>
+<td >Jaime</td>
+<td>P1-Retail</td>
+<td >COD<br>8.25% - VS - Dallas</td>
+<td ></td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Servin Granite Countertops</b> (1439)<br/>Contact Name: Jose Servin<br/><a class='underline' href='mailto:servingranitecountertops@gmail.com'><span class='lblue'>E: servingranitecountertops@gmail.com</span></a></td>
+<td >Dallas</td>
+<td >7/28/2022</td>
+<td >Fabricator</td>
+<td >7027 US-82 Sherman TX 75090 </td>
+<td >7027 US-82 Sherman TX 75090 </td>
+<td >P: <a href ='tel:2147627316'>214-762-7316</a><br/></td>
+<td >Oscar Rodriguez</td>
+<td>P2-Fabricators</td>
+<td >Net 15<br>8.25% - VS - Dallas</td>
+<td ></td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Texas Rock Tops</b> (1365)<br/>Contact Name: Kurtis Putman<br/><a class='underline' href='mailto:texasrocktops@gmail.com'><span class='lblue'>E: texasrocktops@gmail.com</span></a></td>
+<td >Dallas</td>
+<td >11/21/2019</td>
+<td >Fabricator</td>
+<td >225 East I-30 N , Cumby TX 75433 </td>
+<td >225 East I-30 N , Cumby TX 75433 </td>
+<td >P: <a href ='tel:9039053999'>903-905-3999</a><br/></td>
+<td >Jaime</td>
+<td>P2-Fabricators</td>
+<td >Net 60<br>8.25% - VS - Dallas</td>
+<td > PAYMENT TERMS: NET 60 </td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Unlimited Stone</b> (1662)<br/>Contact Name: Miguel Fuertes<br/><a class='underline' href='mailto:unlimitedstone.sales@gmail.com'><span class='lblue'>E: unlimitedstone.sales@gmail.com</span></a></td>
+<td >Dallas</td>
+<td >4/21/2023</td>
+<td >Fabricator</td>
+<td >114  Stevens Street Longview TX 75604 </td>
+<td >114  Stevens Street Longview TX 75604 </td>
+<td >P: <a href ='tel:9032970829'>903-297-0829</a><br/>M: <a href ='tel:9034242647'>903-424-2647</a></td>
+<td >jose</td>
+<td>P2-Fabricators</td>
+<td >Net 15<br>8.25% - VS - Dallas</td>
+<td ></td>
+<td >Active</td>
+</tr>
+<tr>
+<td ><b>Waters Specialty countertops Inc.</b> (2780)<br/>Contact Name: Cody Waters<br/><a class='underline' href='mailto:WSGRANITE@YAHOO.COM'><span class='lblue'>E: WSGRANITE@YAHOO.COM</span></a></td>
+<td >Dallas</td>
+<td >1/31/2024</td>
+<td ></td>
+<td >600 West 62nd Street Shreveport TX 71106 </td>
+<td >600 West 62nd Street Shreveport TX 71106 </td>
+<td >P: <a href ='tel:3188610569'>3188610569</a><br/></td>
+<td >Mileydi</td>
+<td>P1-Retail</td>
+<td >COD<br>8.25% - VS - Dallas</td>
+<td ></td>
+<td >Active</td>
+</tr>
+</table>
+</body>
+</html>
+ 
+			</td>
+		</tr>
+	</table>
+	
+</div>
+<script language="javascript">
+	$(document).ready(function(){
+	if('True' == 'True'){
+		if(0 == 0)
+			$(".listTitleRight").append("<span style='float:right'><button class='btn btn-inverse' onclick='Email();' id='EmailConsignmentInventory'>Email Selected Consignment Reports</button></span>");
+		else
+			$(".listTitleRight").append("");
+	}
+		if('' == "All")
+			$("#dbStatusBoth").prop("checked", true);
+		else if('' == "Inactive")
+			$("#dbStatusInactive").prop("checked", true);
+		else
+			$("#dbStatusActive").prop("checked", true);
+});
+
+$("input[type=\"radio\"]").click(function(){
+	var q1;
+	var tab = 0
+if ($('input:radio[name=q1]:checked').val() == "All")
+	q1 = "All";
+else if ($('input:radio[name=q1]:checked').val() == "Inactive")
+	q1 = "Inactive";
+else
+	q1 = "Active";
+location.href = "listConsignmentLocations.aspx?tab=" + tab + "&q1=" + q1
+});
+
+function SelectAll(obj)
+{
+ if(obj.checked)
+ {
+	 for (var i=0; i < 19 ; i++)
+	 {
+		if(!$("#selectConsignment_"+i).prop('hide'))
+			document.getElementById('selectConsignment_'+i).checked=true;  
+	 }
+ }
+ else
+	UnSelectAll(); 
+}
+function UnSelectAll()
+{
+ for (var i=0; i < 19 ; i++)
+ {
+	document.getElementById('selectConsignment_'+i).checked=false;  
+ }
+ 
+}
+function Email()
+{
+	
+	var id = 0;
+	var NoemailAddressCount = 0
+	$('.linecheck').each(function(){
+		if($(this).attr('checked'))
+		{
+			id = id + "," + $(this).val();
+			var tr = tr = $(this).closest('tr');
+		}
+	});		
+	if ( id == "0"){
+		alert("Please select atleast one Consignment Customer to email.")
+	}
+	else{
+		var ConfirmSend;
+		/*if(NoemailAddressCount > "0"){
+			ConfirmSend=confirm("No Email address for "+ NoemailAddressCount + " Customer. Are you still want to continue?");
+		}
+		else{*/
+			ConfirmSend = confirm('Are you sure to send mail?');
+		//}
+		if(ConfirmSend){
+			$('#EmailConsignmentInventory').attr('Disabled', true);
+			$('#ajax-sending').center().show();
+			$.post("listConsignmentLocations.aspx?act=SendEmail&IDs="+ id +"&z=" + new Date().getTime(),function(data){
+			alert(data);
+			$('#ajax-sending').center().hide();
+			location.href= location.href;
+			})
+		}
+	}
+	return false;
+
+}
+</script>
+<style>
+.moderate {
+    font-size: 8pt !important;
+}
+.alert {
+    border: 0px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 0px;
+}
+</style>

@@ -1,0 +1,3137 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Sheet 1</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="https://www.w3.org/1999/xhtml">
+	<head id="top_Head1"><title>
+	List Inventory Suppliers
+</title></head>
+		
+	<object id='printControl' viewastext  style='display:none'
+	classid='clsid:1663ed61-23eb-11d2-b92f-008048fdd814'
+	codebase='http://www.meadroid.com/scriptx/ScriptX.cab#Version=6,1,432,1'>
+	</object>
+	<style type="text/css" media="print,screen" >	
+	table{
+	   width:100%;
+	  }
+		thead {
+		display:table-header-group;
+		}
+		tbody {
+		display:table-row-group;
+		}
+		'CSS to turn of Headers and Footers and Set margin in the Print List
+		'@page { margin: 0; }
+	</style>
+	<body onload='javascript:PrintPage(0.20, 0.20, 0.20, 0.20);'>
+	<table width=800 height=100% border=0 CellPading="0" bordercolor='red'>
+	  <tr>
+	    <td class='bgWhite' valign=top>
+		
+	<style>
+		.x-menu {
+		z-index: 15000;
+		background: #f6f6f6 url(../images/default/menu/menu.gif) repeat-y;
+		padding: 2px;
+		margin-left: -12px;
+		margin-top: 3px;
+		color: #54555a;
+	}
+	.ui-menu {
+		padding: 0px;
+		margin: 0;
+		display:block;
+			font-family: verdana,arial,helvetica,sans-serif;
+	     font-size: 10pt;
+	}
+	.ui-menu .ui-menu-item .ui-state-hover,
+	.ui-menu .ui-menu-item .ui-state-active {
+		margin: -1px;
+			background-color: #0097cf; 
+			border: 1px solid #0097cf; 
+	}
+	.ui-menu .ui-menu-item-wrapper {
+	    position: relative;
+	    padding: 5px 1em 6px 1.4em;
+	}
+	.ui-menu .ui-menu-item {
+	    margin: 0;
+	    border-bottom: 1px solid #ebebeb;
+	    padding: 0;
+	}
+	.ui-autocomplete {
+	    max-height: 305px;
+	    overflow-y: auto;
+	    /* prevent horizontal scrollbar */
+	    overflow-x: hidden;
+	  }
+	  input[class*=" autoComplete"] {
+		 cursor: auto;
+	    background-color: #fff;
+	}
+	</style>
+	
+<style>
+.UserGuide {font-size:1rem; font-family:Roboto;}
+
+</style>
+
+
+<table>
+	<tr>
+		<td class='padBigLeft' colspan='2' style="padding-top:10px;">
+		<div class="tab-pane active" id="Suppliers">
+			<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Inventory Suppliers</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+<table><tr>
+<th align=left>Name</th>
+<th align=left>Parent Supplier</th>
+<th align=left>Currency</th>
+<th align=left>Type</th>
+<th align=left>Address</th>
+<th align=left>Phones</th>
+<th align=left>Location</th>
+<th align=left>Pmt.Terms</th>
+<th align=left>Internal Notes</th>
+<th align=left>Status</th>
+</tr>
+<tr>
+<td ><b>A.A.T.C. and Co. Srl</b> (AATC) Contact Name: Cenzo</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >8 - 37015 SantAmbrogio di Valpolicella Verona  249531 Italy</td>
+<td >P: <a href ='tel:390456861627'>390456861627</a> F: 390456861057 E: <a class='underline' href='mailto:italianquality@yahoo.com'>italianquality@yahoo.com</a> W: www.aatc.it</td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td >Lang: ITALIAN<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Abhinandan Traders</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Plot No. B-50-C , Shree Niwas Nagar Opp. Road No. 6 , V.K. I. Area Jaipur RJ 302013 India</td>
+<td >M: <a href ='tel:9829590842'>9829590842</a> E: <a class='underline' href='mailto:abhinandantraders101@gmail.com'>abhinandantraders101@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Acue Marmonite</b> (Acue) Contact Name: Raj</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >1400 N I-35 E 108 Carrollton TX 75006 </td>
+<td ></td>
+<td >Dallas</td>
+<td >60 Days<br></td>
+<td >Lang: ENGLISH<br>Internal Notes: The Tile & Stone<br>Delivery Instructions: The Tile & Stone</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Agarwal Marbles And Industries Pvt Ltd</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >F-282-284,Road No.9-J, V.K.I Area Jaipur RAJASTHAN 302013 India</td>
+<td >M: <a href ='tel:919829480000'>+91-9829480000</a> E: <a class='underline' href='mailto:asivijay@gmail.com'>asivijay@gmail.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Agarwal Natural Stones LLP</b> Contact Name: Ashish Agarwal</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >B-22,RIICO Housing Colony Jaipur RAJASTHAN 302013 </td>
+<td >E: <a class='underline' href='mailto:amgindia12@gmail.com'>amgindia12@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>AGARWAL ROCKS LLP</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >308, SECTOR 8, VIDHYADHAR NAGAR JAIPUR, RJ 302039, India</td>
+<td >M: <a href ='tel:9414433506'>9414433506</a> E: <a class='underline' href='mailto:amit@agarwalexports.com'>amit@agarwalexports.com</a> W: www.AgarwalExports.com</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Americana Granitos do Brasil</b> (Americana) Contact Name: Simone</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rua Pedro Maus - Centro BENEDITO NOVO SC  </td>
+<td >P: <a href ='tel:554733852220'>554733852220</a> F: 554733852221 E: <a class='underline' href='mailto:export@americana.com.br'>export@americana.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>AMT TRADING LTDA</b> (AMT) Contact Name: Mery</td>
+<td >
+Decolores Marmores e Granitos
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rod Governador Lacerda de Aguiar S/N,KM 08 Cachoeiro de Itapemirim ES 29306-095 Brazil</td>
+<td >P: <a href ='tel:00552835334997'>00 55 (28) 35334997</a> M: <a href ='tel:00552835334997'>00 55 (28) 35334997</a> E: <a class='underline' href='mailto:expo@decolores.com.br'>expo@decolores.com.br</a> W: www.decolores.com.br</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Anagha Stones LLP</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Plot No.33, APIIC BPSEZ Annangi(V), Maddipadu(M), Prakasam Dist AP 523211 India</td>
+<td >E: <a class='underline' href='mailto:shipping@anaghastones.com'>shipping@anaghastones.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>ANDRADE IND. E COM. DE MARM. E GRANITOS LTDA</b> (Andrade) Contact Name: Luanny</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >RUA ANTONIO AUGUSTO VAZ, S/N, QUADRA UM, CIVIT I SERRA ES 29168020 Brazil</td>
+<td >E: <a class='underline' href='mailto:luanny@andradestones.com'>luanny@andradestones.com</a> W: www.andradestones.com</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>ANGRAMAR GRANITOS E MRMORES LTDA</b> (Angramar)</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >RODOVIA DO FRADE - COMUNIDADE DE SOSSEGO - SN - KM 08 - ZONA RURAL VARGEM ALTA ES 29300970 </td>
+<td >P: <a href ='tel:552821021299'>552821021299</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>ARL INFRATECH LIMITED</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >SPL-185, RIICO Industrial Area Phase-II, Bagru Ext. Jaipur RJ 303007 India</td>
+<td >E: <a class='underline' href='mailto:sales@spectasurfaces.com'>sales@spectasurfaces.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Ashish Stone Exports</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >124, Royal Shelter Ph - 2, D.C.Halli Main Road,Begur  Hobli Bangalore KA 560076 India</td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>ASI Industries Limited</b> (ASI) Contact Name: Anshul Khemuka</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Plot No. PA-008-020 to 23 Multi Product SEZ of Mahindra World City (J) Ltd Tehsil- Sanganer, Post Office- Mahindra World City Jaipur RJ 302037 India</td>
+<td >M: <a href ='tel:919004844123'>+9190048 44123</a> E: <a class='underline' href='mailto:anshul.khemuka@artizia.co.in'>anshul.khemuka@artizia.co.in</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>ASMI Surfaces</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >16650 W 116th Street Lenexa KS 66219 </td>
+<td ></td>
+<td >Dallas</td>
+<td >Net 30<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Astra Surfaces</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >  </td>
+<td ></td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>BATHOLITE NATURAL STONE</b> (BATHOLITE) Contact Name: Srinivas Garlapati</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >302, WELLSPRING CT HOCKESSIN DE 19707 United States</td>
+<td >P: <a href ='tel:919642188884'>919642188884</a> P: <a href ='tel:6513361712'>651-336-1712</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Internal Notes: Account Name: Batholite Natural Stone Inc
+Account Number : 1636184002
+Bank Name: Wells Fargo Bank
+Routing NumbersDirect Deposits, Electronic Payments- 031100869
+Wire Transfers  Domestic 121000248<br>Delivery Instructions: Account Name: Batholite Natural Stone Inc
+Account Number : 1636184002
+Bank Name: Wells Fargo Bank
+Routing NumbersDirect Deposits, Electronic Payments- 031100869
+Wire Transfers  Domestic 121000248</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>BCS Stone and Cabinet, Inc.</b> (BCS) Contact Name: Doris Tan</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >2020 Valley View Ln Farmer Branch TX 75234 United States</td>
+<td >P: <a href ='tel:4696465886'>4696465886</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Bloom Stone India</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >No.G-32,Infosys Pride, Bannerghatta Road Bangalore KARNATAKA 560076 India</td>
+<td >E: <a class='underline' href='mailto:hettur.ravi@gmail.com'>hettur.ravi@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>BLUELINE GRANITES PVT LTD</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >165, Poombuhar Nagar Edyarpalayam Coimbatore TN 641025 India</td>
+<td >E: <a class='underline' href='mailto:gbk@bluelinegranites.com'>gbk@bluelinegranites.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Bonotti STONE TRADING INTERNATIONAL S.R.L.Unin.</b> (bonotti) Contact Name: Luca Pugnana</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Via Martiri di Cefalonia s.n.c 54100 Massa MS  </td>
+<td >P: <a href ='tel:390585784835'>390585784835</a> F: 390585648407 E: <a class='underline' href='mailto:gianluca@bonottimarble.com'>gianluca@bonottimarble.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>BRAMAGRAN BRASILEIRO MARMOR E GRANITO LTDA</b> Contact Name: Gilmar Fraboni</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >RODOVIA FUED NEMER ARACUI - CASTELO / ES - P.O. BOX:121 ARACUI - CASTELO ES 29360-000 Brazil</td>
+<td >P: <a href ='tel:5528999105846'>+55 28 99910-5846</a> E: <a class='underline' href='mailto:gilmar@bramagran.com.br'>gilmar@bramagran.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Brasigran Granitos</b> Contact Name: Gabriel</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >RUA: TRES B N 115, CIVIT II, SERRA Serra ES 29168069 </td>
+<td >P: <a href ='tel:5527999414943'>55 (27) 99941-4943</a> E: <a class='underline' href='mailto:gsecchin@brasigran.com.br'>gsecchin@brasigran.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>BRUNO LUCCHETTI</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Via Martiri di Cefalonia Zona Industriale  Area ex Resine  Lotto 13 Lotto MS 13  54100 Italy</td>
+<td >M: <a href ='tel:390585856713'>+390585856713</a> E: <a class='underline' href='mailto:lucchetti@brunolucchetti.it'>lucchetti@brunolucchetti.it</a> W: www.brunolucchetti.com</td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>BST Srl</b> Contact Name: Sunita Suda</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >B.S.T. Srl, Via Verdi2 Italy P.IVA  6544320960 </td>
+<td >E: <a class='underline' href='mailto:sunitasuda@erols.com'>sunitasuda@erols.com</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>BUNDLES s.r.l.</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Viale Zaccagna, 44 Carrara MS 54033 Italy</td>
+<td ></td>
+<td >Dallas</td>
+<td >120 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>BVL INFRASTRUCTURE PVT LTD</b> Contact Name: Dileep</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >APIIC Industrial Growth Centre,Annangi,Gundlapalli Maddipadu (MD) Prakasam (DT) ANDHRA PRADESH 523211 India</td>
+<td >M: <a href ='tel:919573159396'>+919573159396</a> E: <a class='underline' href='mailto:dileepa@rivarocks.com'>dileepa@rivarocks.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>CACHOEIRO STONE LTDA</b> (Alessandro)</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >RUA VINTE, S/N, QUADRA A9, LOTE 15, SO JOAQUIM, CACHOEIRO DE ITAPEMIRIM - ES, BRASIL   </td>
+<td >E: <a class='underline' href='mailto:silvana@bramagran.com.br'>silvana@bramagran.com.br</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Cadoro Marble and Granite Processing</b> (Cadoro) Contact Name: Giacomo Corvini</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Z.I. Aussa Corno San Giorgio di Nogaro UDINE 33058 Italy</td>
+<td >M: <a href ='tel:390431624511'>+39 0431624511</a> E: <a class='underline' href='mailto:info@cadorospa.it'>info@cadorospa.it</a> W: www.cadorospa.it</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>CAFELANDIA EXTRACAO DE GRANITOS LTDA EPP</b> (VILARINHO) Contact Name: RECORDO</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >RODOVIA ES 080,POLO INDUSTRIAL BARRA DE SAO FRANCISCO ES 29800000 </td>
+<td >P: <a href ='tel:552737562003'>552737562003</a> E: <a class='underline' href='mailto:cafelandia.industria@gmail.com'>cafelandia.industria@gmail.com</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>CALVI GRANITOS LTDA</b> (Calvi) Contact Name: Jamille</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Rua Olindo Cardoso s/n distrito de Vargem Grande de Soturno Cachoeiro de Itapemirim ES  </td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>CAPITAL GRANITES E MARBLE</b> Contact Name: Jamille</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD FUED NEMER, S/N KM 09, DISTRITO DE CONDURU CACHOEIRO DE ITAPEMIRIM ES 29314845 </td>
+<td >E: <a class='underline' href='mailto:logistica@capitalgranite.com.br'>logistica@capitalgranite.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>CASABLANCA VIETNAM JOINT STOCK COMPANY</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >  </td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Internal Notes: Beneficiary Name: Casablanca Vietnam JSC Address: Chau Son Industrial Zone, Chau Son Ward, Phu Ly City, Hanam Province, Vietnam Advising Bank: Joint Stock Commercial Bank for Investment and development of Vietnam, Hoang Mai Hanoi branch Banks Address: 1st<br>Delivery Instructions: Beneficiary Name: Casablanca Vietnam JSC Address: Chau Son Industrial Zone, Chau Son Ward, Phu Ly City, Hanam Province, Vietnam Advising Bank: Joint Stock Commercial Bank for Investment and development of Vietnam, Hoang Mai Hanoi branch Banks Address: 1st</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>CEV S.r.l.</b> (CEV) Contact Name: Cenzo</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Via Gesso 20 - 37010 SEGA DI CAVAION VR  Italy</td>
+<td >P: <a href ='tel:390456864311'>+39 045 6864311</a> F: 390456860315 E: <a class='underline' href='mailto:italianquality@yahoo.com'>italianquality@yahoo.com</a> W: www.cevmarmi.com</td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>CM Granitos e Marmores LTD</b> (CM Granitos) Contact Name: Sabrina</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rod BR 101 Km 401 Sta Maria do Frade - Itapeco Itapemirim ES 29330-0000 </td>
+<td >P: <a href ='tel:552835334078'>552835334078</a> F: 552835334062 E: <a class='underline' href='mailto:binamoreira@terra.com.br'>binamoreira@terra.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>CMD Group</b> Contact Name: Felix</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >1536 Httton Dr 110 Carrolton TX 75006 United States</td>
+<td >P: <a href ='tel:4692063892'>4692063892</a> M: <a href ='tel:4692063892'>4692063892</a> E: <a class='underline' href='mailto:dallas@cmdgroupusa.com'>dallas@cmdgroupusa.com</a> W: www.cmdgroupusa.com</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>COSTA GRANITOS, LDA</b> Contact Name: Nycolas M. Garcia</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >RUA ATALYDES MOREIRA DE SOUZA 502 CIVIT 1 - SERRA ES 29168-060 Brazil</td>
+<td >E: <a class='underline' href='mailto:nycolasgarcia@costagranitos.com.br'>nycolasgarcia@costagranitos.com.br</a> </td>
+<td >Dallas</td>
+<td >120 days<br></td>
+<td >Internal Notes: Beneficiary bank: INTERAUDI BANK 
+Beneficiary: COSTA GRANITOS LDA 
+SWIFT CODE: AUSAUS33 ABA# 066015440 
+ADD:  200 S. Biscayne Blvd., St 1900
+ACC# 728365 
+MIAMI, FL 33131<br>Delivery Instructions: Beneficiary bank: INTERAUDI BANK 
+Beneficiary: COSTA GRANITOS LDA 
+SWIFT CODE: AUSAUS33 ABA# 066015440 
+ADD:  200 S. Biscayne Blvd., St 1900
+ACC# 728365 
+MIAMI, FL 33131</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Counter Surfaces Inc</b> (CSI) Contact Name: Vic</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >24514 emerald pool falls drive Tomball TX 77375 United States</td>
+<td >P: <a href ='tel:9099083369'>(909) 908-3369</a> E: <a class='underline' href='mailto:info@countersurfacesinc.com'>info@countersurfacesinc.com</a> W: countersurfacesinc.com</td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>CROMUS GRANITOS E MRMORES EIRELI</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >AV. LUIZ PIOVEZAN, N 531 - SALA 01 BAIRRO SO CRISTOVO NOVA VENCIA ES 29.830-000 Brazil</td>
+<td ></td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>CS3 MARMORES E GRANITOS LTDA</b> (CS3) Contact Name: Renata</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >CORREGO DO SOSSEGO Aracui ES 293600000 </td>
+<td >P: <a href ='tel:552835428200'>552835428200</a> E: <a class='underline' href='mailto:export01@cs3granitos.com.br'>export01@cs3granitos.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>CUPA STONE, S.L.</b> (CUPASTONE) Contact Name: Javier</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Carneiras-Macal VIGO  3236213 Spain</td>
+<td >P: <a href ='tel:34986298300'>34986298300</a> F: 34986202511 </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Decolores Marmores e Granitos</b> Contact Name: Mery Nunes</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rod Governador Lacerda de Aguiar,0,Km 11,Coronel Borges Cachoeiro de Itapemirim ES 29306-095 Brazil</td>
+<td >M: <a href ='tel:00552835334997'>00 55 (28) 35334997</a> E: <a class='underline' href='mailto:sales@decolores.com.br'>sales@decolores.com.br</a> W: www.decolores.com.br</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>DHAKSHIKHA GRANITES</b> (DHK)</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >No: 33/2 ALAGIRI COLONY PERIYUR (PO), SATHYAMAGANGAL, ERODIE DIST. TAMIL NADU 638402 </td>
+<td >P: <a href ='tel:919865275830'>919865275830</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Easy Stones</b> (Easy) Contact Name: Sree</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >5965 Peachtree Corners East Norcross GA 30071 </td>
+<td >P: <a href ='tel:6783872900'>678-387-2900</a> E: <a class='underline' href='mailto:cd@easystone.com'>cd@easystone.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Elite Stonetech CO., LTD</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >ADDRESS: 427/10 MOO. 8 AMPHUR SRIRACHA CHONBURI PROVINCE TUMBON BANGPRA  20110 Thailand</td>
+<td >P: <a href ='tel:0210130812'>02-1013081-2</a> E: <a class='underline' href='mailto:info@elitestonetech.com'>info@elitestonetech.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Internal Notes: 30% advance payment,70% before loading by T/T Bank: BANGKOK BANK PUBLIC COMPANY LIMITED Address: 333 SILOM ROAD, BANGRAK, BANGKOK 10500 THAILAND SWIFT CODE:BKK BTH BK ACCOUNT NAME: ELITE STONETECH CO., LTD ACCOUNT NUMBER:1954973531 ADDRESS: RATCHADA RD. S<br>Delivery Instructions: 30% advance payment,70% before loading by T/T Bank: BANGKOK BANK PUBLIC COMPANY LIMITED Address: 333 SILOM ROAD, BANGRAK, BANGKOK 10500 THAILAND SWIFT CODE:BKK BTH BK ACCOUNT NAME: ELITE STONETECH CO., LTD ACCOUNT NUMBER:1954973531 ADDRESS: RATCHADA RD. S</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Elroma Pedras Ornamentais</b> (Elroma)</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Av.Mauro M. Madureira Cachoeiro de Itapemirim ES 29313-162 </td>
+<td ></td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Emerick Stones LTDA EEP-FILIAL</b> (Emerick Stones) Contact Name: Igor Costa</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Fazenda Exame S/N - Bairro Garage Castelo   </td>
+<td >P: <a href ='tel:552835425391552835425391'>552835425391552835425391</a> E: <a class='underline' href='mailto:export2@emerickstones.com.br'>export2@emerickstones.com.br</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>EURO CKP GRANITO NATURAL</b> (Euro ckp) Contact Name: Christianne Ester</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >A Magdalena S/N, Polgono Industrial de Ribadelouro Tui PONTEVEDRA 36710 Spain</td>
+<td >P: <a href ='tel:34986639747'>34986639747</a> E: <a class='underline' href='mailto:christianne@eurockp.com'>christianne@eurockp.com</a> W: www.eurockp.info</td>
+<td >Dallas</td>
+<td >90 days<br>FOB</td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>EZ Stone Trading LLC</b> Contact Name: Eduardo</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >9112 Yonath St Orlando FL 32827 </td>
+<td >E: <a class='underline' href='mailto:eduardo@ezstonetrading.com'>eduardo@ezstonetrading.com</a> W: www.ezstonetrading.com</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>F2 NATURAL STONES LTDA</b> (F2) Contact Name: John</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD ES 080, TRES VENDAS, KM 05 GALPAO 02, S/N, ZONA RURAL BARRA DE SO FRANCISCO ES 29.800-000 Brazil</td>
+<td >E: <a class='underline' href='mailto:john@fortunagranitos.com'>john@fortunagranitos.com</a> </td>
+<td >Dallas</td>
+<td >120 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Favorita Do Brasil LTDA</b> Contact Name: Marcelle Tonini</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >AV QUINHENTOS, 374 - LOTES ENGLOBADOS M-03 PARTE M02 E PARTE M-01 TIMS - SERRA  29161388 Brazil</td>
+<td >P: <a href ='tel:552733282195'>+55 27 3328-2195</a> M: <a href ='tel:5527995802181'>+55 27 99580-2181</a> E: <a class='underline' href='mailto:favorita@granitifavorita.com'>favorita@granitifavorita.com</a> W: www.granitifavorita.com</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>FERRAZ BRASIL</b> Contact Name: Wanderson</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Av. Athalides Moreira de Souza Serra ES 29.168-055 </td>
+<td >E: <a class='underline' href='mailto:export@ferrazbrasil.com.br'>export@ferrazbrasil.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>FO SHAN HENG HE IMPORT AND EXPORT</b> (BIYU QUARTZ)</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Tian An Development M,#1,Jianping Rd,Guicheng,Nanhai Foshan GUANGDONG  </td>
+<td ></td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Fortuna Granitos DO BRASIL LTDA</b> (Fortuna) Contact Name: John</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD. ES 080, KM 01, S/N, CP 15, POLO INDUSTRIAL BARRA DE SAO FRANCISCO ES 29800-000 </td>
+<td >P: <a href ='tel:552737568100'>+ 55 27 3756-8100</a> E: <a class='underline' href='mailto:john@fortunagranitos.com'>john@fortunagranitos.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br>FOB</td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>FOSHAN ZHANNING PACKING CO.,LTD</b> (ZHANNING)</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >  </td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Gamut Surfaces Pvt. Ltd.</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >190, Nandanvan Main Road Above ICICI Bank, Nandanvan Nagpur  44 00 09 India</td>
+<td >P: <a href ='tel:919004844123'>+91 90048 44123</a> E: <a class='underline' href='mailto:anshul@gamutsurfaces.com'>anshul@gamutsurfaces.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Gaoming Biyustone Manufactory</b> (Biyu) Contact Name: Abril</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Xingjiao Road,Sanzhou,Hecheng Town,Gaoming Dist., Foshan GUANGDONG  </td>
+<td >P: <a href ='tel:8613380223309'>8613380223309</a> P: <a href ='tel:86075781897572'>86075781897572</a> E: <a class='underline' href='mailto:biyu@biyustone.com'>biyu@biyustone.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Gilgran Granitos e Mrmores</b> (Gilgran) Contact Name: Gustavo Silva</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Rua Jose Antonio Do Amaral , 80-Aeroporto Cachoeiro De Itapemirim   </td>
+<td >P: <a href ='tel:552835263700'>552835263700</a> E: <a class='underline' href='mailto:export@gilgran.com.br'>export@gilgran.com.br</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Global Stones Pvt Ltd</b> (GS)</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >RIICO Industrial Area, Plot No. E-40 to G-47, Jaipur RAJASTHAN  </td>
+<td ></td>
+<td >Dallas</td>
+<td >120 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Global Surfaces LTD</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >P.NO. PA-010-006 Mahindra World City Multi Product, SEZ Jaipur RAJASTHAN 302037 India</td>
+<td >E: <a class='underline' href='mailto:sanjeev@globalsurfaces.in'>sanjeev@globalsurfaces.in</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GRAMARCAL GRANITOS MRMORES E CALCREOS LTDA</b> Contact Name: Cleyton Ravera</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD. ES 320 ZONA RURAL - BARRA DE SO FRANCISCO ES ES 29815-000 Brazil</td>
+<td >P: <a href ='tel:552821010041'>+55(28) 2101-0041</a> E: <a class='underline' href='mailto:cleyton@gramarcal.com.br'>cleyton@gramarcal.com.br</a> W: www.gramarcal.com.br</td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Gramazini Granitos E Mormores Thomazini LTDA</b> Contact Name: Amanda</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >CORREGO PACOTE PAULISTA - BARRA DE SAO FRANCISCO DE 29.800-000 Brazil</td>
+<td >E: <a class='underline' href='mailto:amanda@gramazini.com.br'>amanda@gramazini.com.br</a> W: www.gramazini.com.br</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GRAMAZINI USA</b> Contact Name: Amanda</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >120,GRANITE RUN E Commerce TX 75428 United States</td>
+<td >M: <a href ='tel:5527995298757'>+55 2799529-8757</a> E: <a class='underline' href='mailto:amanda@gramazini.com.br'>amanda@gramazini.com.br</a> </td>
+<td >Dallas</td>
+<td >120 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GRAMIL GRANITOS E MARMORES ITAPEMIRIM LTDA</b> Contact Name: Lucas</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >RUA FIORAVANTE CYPRIANO,516 - CENTRAL PARQUE CACHOEIRO DE ITAPEMIRIM  29313-159 Brazil</td>
+<td >E: <a class='underline' href='mailto:LucasPaulinolpaulino@gramil.com.br'>lucaspaulinolpaulino@gramil.com.br</a> W: www.gramil.com.br</td>
+<td >Dallas</td>
+<td >50%CAD - 50% Net90<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GRANBIANCHI GRANITOS LTDA ME</b> (GRANBIANCHI) Contact Name: Ricardo Martins</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rua Astrogildo Romao Dos Barra de So Francisco ES 29800 </td>
+<td >P: <a href ='tel:2737560666'>273-756-0666</a> P: <a href ='tel:552737562578'>552737562578</a> E: <a class='underline' href='mailto:ricardo@granitesource.com.br'>ricardo@granitesource.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Internal Notes: PAYMENT TERMS: 50% CAD AND 50% 90 DAYS FROM BL<br>Delivery Instructions: PAYMENT TERMS: 50% CAD AND 50% 90 DAYS FROM BL</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Grandall Granitos E Marmores LTDA EPP</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >RUA PROJETADA SANTA BARBARA CASTELO ES 29.360-000 </td>
+<td >P: <a href ='tel:552835425078'>(+55)2835425078</a> E: <a class='underline' href='mailto:jean@grandall.com.br'>jean@grandall.com.br</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GRANDALL MARBLE AND GRANITE INC.</b> (Grandall) Contact Name: Suzana Depes</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >10053 NW 89 TER DORAL FL 33178 United States</td>
+<td >P: <a href ='tel:2835425078'>28 3542-5078</a> M: <a href ='tel:28999225062'>28 99922-5062</a> E: <a class='underline' href='mailto:suzana@grandall.com.br'>suzana@grandall.com.br</a> W: www.grandall.com.br</td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Granexpo do Brasil Granitos Ltda</b> (Granexpo) Contact Name: Tereza</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >R. EUCLIDES BAZONI, 00000 - MORRO GRANDE - CACHOEIRO DE ITAPEMIRIM ES 29314845 </td>
+<td >P: <a href ='tel:552835118970'>552835118970</a> F: 552835118982 E: <a class='underline' href='mailto:tereza@granexpodobrasil.com.br'>tereza@granexpodobrasil.com.br</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GRANFORTE INDUSTRIA DE MARMORE E GRANITO LTDA</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Rodovia BR 101 KM 396 - S/No. 29.290-000 Rio Novo do Sul Espirito Santo   Brazil</td>
+<td >P: <a href ='tel:552835331322'>55 28 3533 1322</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GRANIMARMO PVT LTD</b> (Granimarmo)</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >PLOT NO.: 17, BP-SEZ,ANNANGI (v) Ongole AP 523211 </td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Granite & Marble Depot, Inc</b> Contact Name: Roger</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >15 Old Flanders Rd Westborough MA 01581 </td>
+<td >M: <a href ='tel:5088365521'>5088365521</a> </td>
+<td >Dallas</td>
+<td >30 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GRANITI INDUSTRIA COMERCIO E EXPORTAO LTDA</b> Contact Name: Tiago Brunoro</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rod. ES 137, Km 127- Polo Agroindustrial Nova Venecia ES 29830-000 Brazil</td>
+<td >E: <a class='underline' href='mailto:TiagoLucianoBrunorotiago@graniti.com.br'>tiagolucianobrunorotiago@graniti.com.br</a> </td>
+<td >Dallas</td>
+<td >120 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Graniti Tecnica</b> (Graniti Tecnica) Contact Name: Gunter Coetzee</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >3 Spencer Road, Spartan Ext 1, Isando 1619 PO Box 812, Isando 1600 Gauteng   South Africa</td>
+<td >P: <a href ='tel:0027119743588'>0027 11 974 3588</a> M: <a href ='tel:0027119743588'>0027 11 974 3588</a> E: <a class='underline' href='mailto:exports2@graniti.co.za'>exports2@graniti.co.za</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Granitos Colledetti Ltda</b> (Colledetti) Contact Name: Suzana Depes Ramos</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >rod fued nemer,km9-conduru Cachoeiro de Itapemirim ES  </td>
+<td >P: <a href ='tel:552821026500'>552821026500</a> E: <a class='underline' href='mailto:suzana@granitoscolledetti.com.br'>suzana@granitoscolledetti.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Granitos Itapoma Ltda</b> (Itapoma) Contact Name: Cesar</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rodovia BR 101 Km 396 Rio Novo do sul ES 25290 </td>
+<td >P: <a href ='tel:552835330900'>552835330900</a> E: <a class='underline' href='mailto:logisca@itapoma.com.br'>logisca@itapoma.com.br</a> </td>
+<td >Dallas</td>
+<td >120 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GRANITOS LITORAL LTDA</b> (Litoral) Contact Name: Wellington Silva</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >RUA CIRO ANSELMO CECATO R. CIRO ANSELMO CECATO SAO CRISTOVAO IBIRAU ES 29670000 </td>
+<td >P: <a href ='tel:552732571774'>552732571774</a> E: <a class='underline' href='mailto:export@granitoslitoral.com.br'>export@granitoslitoral.com.br</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GRANITOS MINOZZO LTDA-EPP</b> (GRANITOS AM) Contact Name: RAPHAEL</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >AV MATATIAS SOARES SAO CRISTOVAO NOVA VENECIA ES 29830000 </td>
+<td >P: <a href ='tel:2737526011'>273-752-6011</a> F: 273-752-6011 </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Greene Marble & Granite</b> Contact Name: Kelly</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >154 Sweetmans Lane New Jersey NJ 07726 </td>
+<td >P: <a href ='tel:2482409736'>248 240-9736</a> E: <a class='underline' href='mailto:fauzagmg@aol.com'>fauzagmg@aol.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Group Stone Rio</b> (Group Stone Rio) Contact Name: Jamille</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >  </td>
+<td ></td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GTN Granitos</b> (GTN) Contact Name: Karina</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rodovia Camilo Cola s/n Km 01 - Estrada do Contorno - Morro Grande Cachoeiro de Itapemirim ES  </td>
+<td >P: <a href ='tel:552821026666'>552821026666</a> F: 552821026651 E: <a class='underline' href='mailto:karina@gtngranitos.com.br'>karina@gtngranitos.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GUIDONI ORNAMENTAL ROCKS LTDA</b> Contact Name: Alby</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >RODOVIA GETHER LOPES DE FARIAS - KM 48 - ZONA RURAL SAO DOMINGOS DO NORTE ES 29745000 Brazil</td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GUIDONI USA, INC</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >263 East Oak Street 31055, Mc Rae Helena, EUA   United States</td>
+<td >M: <a href ='tel:14785590809'>+1 478-559-0809</a> E: <a class='underline' href='mailto:daniel.sa@guidoni.com.br'>daniel.sa@guidoni.com.br</a> W: www.guidoni.com.br</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Guimagran Mrmores e Granito</b> Contact Name: Jamile</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rua Ercy Dias Santana Cachoeiro de Itapemirim ES 29314-872 </td>
+<td >E: <a class='underline' href='mailto:logistica@silvaguimaraes.com.br'>logistica@silvaguimaraes.com.br</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Gupta Marbles</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >101, Sanjeevani Luxury Homes, D-17 Meera Marg, Bani Park, Jaipur RJ 302016 India</td>
+<td >M: <a href ='tel:9024322386'>9024322386</a> E: <a class='underline' href='mailto:guptamarblesksg@gmail.com'>guptamarblesksg@gmail.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Hella Infra Market Private Limited</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >4th Floor,Opal Square,Plot No.C-1 Road No.1,Wagle Estate,MIDC, Thane West MH 400601 India</td>
+<td >E: <a class='underline' href='mailto:ramesh.chundi@infra.market'>ramesh.chundi@infra.market</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Henraux s.p.a</b> (Henraux) Contact Name: Sunita</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Via Deposito, 269 55046 Querceta (Lucca) Italia   </td>
+<td >P: <a href ='tel:5847611'>5847611</a> E: <a class='underline' href='mailto:commercial@henraux.it'>commercial@henraux.it</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Henraux S.p.a.</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Via Deposito,269 55047 Querceta (Lucca)   Italy</td>
+<td >P: <a href ='tel:05847611'>0584 7611</a> E: <a class='underline' href='mailto:henraux@henraux.it'>henraux@henraux.it</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>HOPPE INTERNATIONAL CORP</b> Contact Name: Deborah</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >409 NW, 10TH TERR Hallandale Beach FL 33009 </td>
+<td >M: <a href ='tel:13219474332'>+1 (321) 947-4332</a> E: <a class='underline' href='mailto:export3@margramar.com'>export3@margramar.com</a> W: www.margramar.com.br</td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>HOUSTON QUARTZ TRADING LLC</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >2310 Shannon Court Mossouri City TX 77459 United States</td>
+<td >E: <a class='underline' href='mailto:houstonquartztrading@gmail.com'>houstonquartztrading@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Hues Granites Private Limited</b> Contact Name: Srinivas Garlapati</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Plot No: 26,BP SEZ,APIIC Growth Center Annangi(V) Prakasam(DT) AP 523211 India</td>
+<td >P: <a href ='tel:919642188884'>+91-9642188884</a> E: <a class='underline' href='mailto:sgarlapati@huesgranites.com'>sgarlapati@huesgranites.com</a> </td>
+<td >Dallas</td>
+<td >180 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>IBMG MINERACAO COMERCIO E INDUSTRIA LTDA - EPP</b> Contact Name: RAFAEL POUBEL SECATO</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD JOSE ZAMPIROLLI, S/N ES 486 KM 2.4 LIBERD, LOC. LIBERDADE CACHOEIRO DE ITAPEMIRIM ES 29301000 Brazil</td>
+<td >M: <a href ='tel:5528999185598'>+55 (28) 99918-5598</a> E: <a class='underline' href='mailto:poubel@ibmgmineradora.com.br'>poubel@ibmgmineradora.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>IGM GRANITOS E MARMORES LTDA</b> Contact Name: LUCIANO OTHARAN</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >SITIO OLHO DAGUA BARRA DE SAO FRANCISCO ES 29800000 Brazil</td>
+<td >M: <a href ='tel:5527997275416'>+55 27 99727-5416</a> E: <a class='underline' href='mailto:luciano.vendas@igmgranitos.com.br'>luciano.vendas@igmgranitos.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Imetame Granitos LTDA</b> (imetame) Contact Name: Elis Regina</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD. BR 101 - KM 168 - RIO DO NORTE LINHARES ES 29901-981 </td>
+<td >P: <a href ='tel:552721035050'>552721035050</a> E: <a class='underline' href='mailto:elis@imetamegranitos.com.br'>elis@imetamegranitos.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Infinity Stones Europe Srl</b> Contact Name: Hari</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Piazza Del Mercato 18 Frascati Rome  00044 Italy</td>
+<td >M: <a href ='tel:31011792131'>+31 0 11792131</a> E: <a class='underline' href='mailto:info@infinitystoneseu.com'>info@infinitystoneseu.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Instyle Granite & Marble</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >8255 KEMPWOOD Houston TX 77055 </td>
+<td >P: <a href ='tel:7136831640'>7136831640</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Internacional Granitos e Marmores Ltda</b> (IGM) Contact Name: Ricardo</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Crrego do Itaperuna, s/n - Vila Itaperuna Barra de So Francisco ES 29800-000 </td>
+<td >P: <a href ='tel:552737562578'>(55)27-3756-2578</a> E: <a class='underline' href='mailto:ricardo@granitesource.com.br'>ricardo@granitesource.com.br</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Intown Surfaces Inc</b> Contact Name: IVO</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >  </td>
+<td >E: <a class='underline' href='mailto:ivo@intownsurfaces.com'>ivo@intownsurfaces.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>J V S Marmores E Granitos</b> (JVS) Contact Name: Jamille</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD. GOVERNADOR LACERDA DE AGUIAR, S/N,KM 04, SO JOS DO FRADE,POO DANTAS CACHOEIRO DE ITAPEMIRIM ES 29.306-095 </td>
+<td >P: <a href ='tel:552821017171'>552821017171</a> E: <a class='underline' href='mailto:jamille@thestoneshop.com.br'>jamille@thestoneshop.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>JJ Granite</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >8545 Steeplechase Blud Unit A Cumming GA 30040 United States</td>
+<td >E: <a class='underline' href='mailto:JJGraniteSlab@gmail.com'>jjgraniteslab@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>JK GRANITES</b> (JKG) Contact Name: Chetan</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >S1-A,SECOND FLOOR,PLOT NO.15 CHINNAMMAL RESIDENCY,THILLAI NAGAR HOSUR  635109 India</td>
+<td >M: <a href ='tel:9442271319'>94422 71319</a> E: <a class='underline' href='mailto:infojkgranites@gmail.com'>infojkgranites@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>JKS Exports</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >No :342,Meenakshi Nagar,Bagalur Road Housur Krishnagiri TN 635109 India</td>
+<td >M: <a href ='tel:9600982397'>96009 82397</a> E: <a class='underline' href='mailto:jksexports2017@gmail.com'>jksexports2017@gmail.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>JR Granites, Inc.</b> Contact Name: Jitendra</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >1208 Brewers Bridge Rd 4008 Elberton GA 30635 </td>
+<td >E: <a class='underline' href='mailto:jitendra_gupta@jrgranites.com'>jitendra_gupta@jrgranites.com</a> </td>
+<td >Dallas</td>
+<td >Net 30<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>JVS MARMORES E GRANITOS</b> (The Stone shop) Contact Name: Jamille</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >ROD Cachoeiro x Frade, KM 04 Cachoeino de itapemirini ES  </td>
+<td >P: <a href ='tel:5528999494810'>5528999494810</a> E: <a class='underline' href='mailto:jamille@thestoneshop.com.br'>jamille@thestoneshop.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>JW Quartz</b> (JW Quartz) Contact Name: Lisa</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Shimen Town, LulongCoun Qinhuangdao HEBEI 66401 </td>
+<td >P: <a href ='tel:8615703328629'>8615703328629</a> E: <a class='underline' href='mailto:lisa@goodquartz.com'>lisa@goodquartz.com</a> </td>
+<td >Dallas</td>
+<td >30 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Jyothi Granite Exports India Pvt Ltd.</b> (Jyothi) Contact Name: Shivaram</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Plot No: 9,10&11,Building Products SEZ, Maddipadu Mandal,Prakasam District, ANDHRA PRADESH 523211 </td>
+<td >P: <a href ='tel:9966695154'>9966695154</a> P: <a href ='tel:7093357555'>7093357555</a> E: <a class='underline' href='mailto:siva@jyothiexports.com'>siva@jyothiexports.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Kalpa Granites Private Limited</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >E-16,Phase-II,Expansion-I Sipcot Industrial Complex Hosur TN 635109 India</td>
+<td >E: <a class='underline' href='mailto:kalpagranites@gmail.com'>kalpagranites@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Keros Stones LLP</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Survey No.616 P1/P2 At-Rangpar,Jepar-Morbiroad Morbi GUJARAT 363642 India</td>
+<td >M: <a href ='tel:9512011000'>95120 11000</a> E: <a class='underline' href='mailto:kerosstone@gmail.com'>kerosstone@gmail.com</a> W: www.kerosstone.in</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>KESA TRADING LIMITED</b> (KESA)</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >UNIT 2305, APEC PLAZA, 49 HOI YUEN ROAD HONG KONG   </td>
+<td >P: <a href ='tel:85221329631'>85221329631</a> F: 85230076087 </td>
+<td >Dallas</td>
+<td >30 days<br></td>
+<td >Internal Notes: T/T 100% within 21days after loading date<br>Delivery Instructions: T/T 100% within 21days after loading date</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>KIVA STONE</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >  </td>
+<td >P: <a href ='tel:9727656667'>9727656667</a> M: <a href ='tel:2144040742'>2144040742</a> </td>
+<td >Dallas</td>
+<td >Net 30<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Kuntal Granites PVT ltd.</b> (kuntal) Contact Name: Chetan shah</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >A-1,Anchorage Building,GF, 7 Vachha Gandhi RD Gamdevi,Mumbai MH 400007 </td>
+<td >E: <a class='underline' href='mailto:chetanshah@gmtrade.in'>chetanshah@gmtrade.in</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>L&E Stone</b> (L&E) Contact Name: Jason</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >F22,Huadin Tower,No.2368 Zhongshan(W) Road Shanghai   </td>
+<td >P: <a href ='tel:862164288816888'>862164288816888</a> F: 862154253681 E: <a class='underline' href='mailto:jason@lestone.com'>jason@lestone.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>LA PONTE MARMI Marble & Granite</b> (LA Ponte) Contact Name: FilippoTedeschi</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Loc. Romagnano GREZZANA VERONA 37023 </td>
+<td >P: <a href ='tel:390458650510'>+39-045-8650510</a> P: <a href ='tel:393486008345'>+39-348-6008345</a> M: <a href ='tel:4046309957'>(404) 630 9957</a> E: <a class='underline' href='mailto:filippo@laponte.it'>filippo@laponte.it</a> W: www.laponte.it</td>
+<td >Dallas</td>
+<td >120 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Laka Granitos</b> (Laka) Contact Name: Daniela</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Highway Fabiano Vivcqua, Km 13 Cachoeiro de Itapemirim  29313760 </td>
+<td >P: <a href ='tel:552821023356'>552821023356</a> E: <a class='underline' href='mailto:export@lakagranitos.com.br'>export@lakagranitos.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Landi Group s.r.l.</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Via Tognocchi, 338 Querceta (LU)   55047 Italy</td>
+<td >E: <a class='underline' href='mailto:spedizioni@landigroup.eu'>spedizioni@landigroup.eu</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Levantina</b> Contact Name: Hed</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD BR 101 NORTE KM 274-29160-040 SERRA   Brazil</td>
+<td >P: <a href ='tel:552734340700'>+552734340700</a> M: <a href ='tel:5527995123831'>+5527995123831</a> E: <a class='underline' href='mailto:filipe.moraes@levantina.com'>filipe.moraes@levantina.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Levantina - Dallas</b> Contact Name: ROBLES NESTOR</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >2250 Morgan Parkway 140 Farmers Branch TX 75234 </td>
+<td >P: <a href ='tel:9724882800'>972-488-2800</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Levgranite, S.L.U.</b> Contact Name: Iria Vaamonde Sanzol</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Polgono industrial As Gndaras de Budio, s/n 36400 Porrio - Pontevedra   Spain</td>
+<td >P: <a href ='tel:34986346477'>+ 34 986 34 64 77</a> M: <a href ='tel:14696736594'>1 (469) 673-6594</a> E: <a class='underline' href='mailto:iria.vaamonde@levantina.com'>iria.vaamonde@levantina.com</a> W: www.levantina.com</td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>LIOLI CERAMICA PVT LTD</b> Contact Name: Anuj Jain</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >SURVEY NO. 315/P2, JUNA SADULKA NR.PAPERMILL, 8 -A N.H MORBI,RAJKOT GUJARAT 363641 India</td>
+<td >M: <a href ='tel:919512300645'>+91 9512300645</a> E: <a class='underline' href='mailto:exports@lioliceramica.com'>exports@lioliceramica.com</a> W: www.lioliceramica.com</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>M & G Impex (India) Pvt. Ltd.</b> Contact Name: Praveen</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Sy.Nos. 13,,14 & 21,Kammandoddi Post Hosur TAMILNADU 635 109 </td>
+<td >P: <a href ='tel:914344257131'>91 4344 257131</a> E: <a class='underline' href='mailto:praveen@mgimpex.com'>praveen@mgimpex.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>M S International, Inc</b> (MSI) Contact Name: Kavit</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >5930, 4th Avenue S Seattle WA 98018 </td>
+<td >P: <a href ='tel:2062689200'>206-268-9200</a> F: 206-268-9201 E: <a class='underline' href='mailto:kavit@msistone.com'>kavit@msistone.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>M/s. JKM EXPORTT</b> (JKM) Contact Name: Lokesh</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >19/2, Sakthi Nagar,Srinivasa School Back Side Gandhigramam South, Karur TN 639004 India</td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>M/S. SHREE RAM GRANITES</b> Contact Name: Anshul</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Khasara No. 261 & 262 Near Oil Mill, Bishangarh Road, Jalore RJ 343001 India</td>
+<td >P: <a href ='tel:912261879888'>+91-22-61879888</a> E: <a class='underline' href='mailto:srgm@srgm.in'>srgm@srgm.in</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>MADHUCON GRANITES LTD</b> (MUDHUCON)</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Beside D.No.135, Addakurukki (V), Kamandoddi (Po), Krishnagiri(D) Hosur TN 635109 </td>
+<td >P: <a href ='tel:914344200633'>+91-4344-200633</a> P: <a href ='tel:914344200634'>+91-4344-200634</a> E: <a class='underline' href='mailto:export@mudhucongranires.com'>export@mudhucongranires.com</a> W: www.mudhucongranires.com</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Mahaa Industries</b> Contact Name: Venkata Rao Bhimani</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >TSIIC Plot No: 60/A2, Export Promotion Industrial Park Pashamylaram Village, Patancheru Mandal Medak District, TELANGANA 502307 India</td>
+<td >M: <a href ='tel:9052338929'>9052338929</a> E: <a class='underline' href='mailto:sales@mahaaindustries.com'>sales@mahaaindustries.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Mahi Granites Pvt Ltd (100% EOU)</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >3rd & 4th Floor, Mahi Towers,Plot No 15 Shilpi enclave, Madapur Hyderabad TG 500081 India</td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>MaqStone Pedras e Mquinas Ltda</b> Contact Name: Otavio  Carneiro</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Coutinho - Cachoeiro de Itapemirim Coutinho - Cachoeiro de Itapemirim ES 29318-115 Brazil</td>
+<td >M: <a href ='tel:552835398088'>+55 28 3539 8088</a> E: <a class='underline' href='mailto:otavio@maqstone.com'>otavio@maqstone.com</a> W: www.maqstone.com</td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Marudhar Quartz Surfaces Pvt. Ltd.</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Site No. 338/45, 16th B Main Jaya Nagar 4th Block Bangalore KA 560041 India</td>
+<td >E: <a class='underline' href='mailto:vikas@marudharstones.com'>vikas@marudharstones.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Marudhar Rocks International Pvt Ltd</b> (Marudhar) Contact Name: Praveen</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >PLOT NO. E-25, SIPCOT INDUSTRIAL COMPLEX PHASE II, EXPN-II Hosur TN 635109 India</td>
+<td >E: <a class='underline' href='mailto:office@marudharrocks.in'>office@marudharrocks.in</a> W: www.marudharrocks.in</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Marudhar Stones International PVT LTD</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >SY.368&369,A.Samanapalli Main Road Alur Village,Krishna Giri, Hosur TN 635109 India</td>
+<td >M: <a href ='tel:9751930014'>9751930014</a> E: <a class='underline' href='mailto:info@marudharstones.com'>info@marudharstones.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Matru Projects Exports Pvt Ltd</b> Contact Name: Anshul</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Jaigovind Appt, Flat no. 301 Near Kacchivisa OS Nagpur MH 44 00 01 India</td>
+<td >M: <a href ='tel:9004844123'>90048 44123</a> E: <a class='underline' href='mailto:anshul.khemuka@gmail.com'>anshul.khemuka@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Max Trading, LLC</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >13210 Hempstead Road Houston TX 77040 </td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>MG2 Marmores E Granitos LTDA</b> (MG2) Contact Name: Silvana</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Localidade de duas barras Conduru-Cach Itapemirim ES 29300970 </td>
+<td >P: <a href ='tel:552835398080'>552835398080</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>MGX Stone LLP</b> (MGX Stone LLP) Contact Name: Gangadhar</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >8-3-193/5 Vengalrao Nagar Hyderabad TN 500038 </td>
+<td >P: <a href ='tel:919849289616'>919849289616</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>MILANEZI GRANITOS S/A</b> (Milanezi) Contact Name: Jamille Viana</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD. GERALDO SARTRIO, KM 41, S/N SO JOS DE FRUTEIRAS VARGEM ALTA ES 29295 </td>
+<td >P: <a href ='tel:552835282177'>552835282177</a> E: <a class='underline' href='mailto:jamille@thestoneshop.com.br'>jamille@thestoneshop.com.br</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Minagrex</b> Contact Name: Srini Mandava</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >8637 S 208th St Kent WA 98031 United States</td>
+<td ></td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Mineral Stone</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >ROD BR-101 NORTE SERRA ES 29177211 Brazil</td>
+<td >P: <a href ='tel:2732915500'>2732915500</a> M: <a href ='tel:2732915500'>2732915500</a> E: <a class='underline' href='mailto:info@mineralstone.com.br'>info@mineralstone.com.br</a> </td>
+<td >Dallas</td>
+<td >120 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Mishu Granites LLP</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Khasra No.676/1,674/12 Village-Ralawata Kishangarh ,Ajmer Ajmer RJ 305801 India</td>
+<td >M: <a href ='tel:9828512789'>9828512789</a> E: <a class='underline' href='mailto:sales@sunexstones.com'>sales@sunexstones.com</a> W: www.qwantoquartz.com</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>MODI GRANITES PVT LTD</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >SY NO. 189/1, SHOOLAGIRI VILLAGE HOSUR TALUK, KRISHNAGIRI DIST TAMIL NADU 635117 </td>
+<td >M: <a href ='tel:919715680212'>+91-9715680212</a> E: <a class='underline' href='mailto:info@modigranites.com'>info@modigranites.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>MON HILL INTERNATIONAL LIMITED</b> (MON HILL) Contact Name: Bond</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROOM D,15/F,INFOTECH CENTRE KWUN TONG KL  </td>
+<td >P: <a href ='tel:008675722899192'>0086-757-22899192</a> F: 8675727783282 E: <a class='underline' href='mailto:bond_zhu@sddongyuan.com'>bond_zhu@sddongyuan.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>MSG Marmores e Granitos Eireli</b> Contact Name: Jamilie</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Rua Ercy Dias Santana, n s/n - So Joaquim - Cep: 29314-872 Cachoeiro de Itapemirim ES 29314-87 </td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Mukesh Natural Stones PVT. LTD.</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >A-203 RIICO INDUSTRIAL AREA BAGRU JAIPUR RJ  </td>
+<td >P: <a href ='tel:919571482000'>+919571482000</a> E: <a class='underline' href='mailto:mukeshnaturalstoness@gmail.com'>mukeshnaturalstoness@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Multistone Mrmores e Granitos Eireli</b> Contact Name: Eduardo Corona</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rua Moreira, Bairro Indepedencia N 253 Cachoeiro de Itapemirim ES 29306-320 Brazil</td>
+<td >M: <a href ='tel:5528998840425'>55 28 998840425</a> E: <a class='underline' href='mailto:eduardo@multistone.com.br'>eduardo@multistone.com.br</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>NEMER MARMORES E GRANITOS S/A</b> Contact Name: Rakel</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rua Cel. Francisco Braga, 71 - Sala 1003 Centro Cachoeiro de Itapemirim ES 293000-220 </td>
+<td >E: <a class='underline' href='mailto:nemer@nemerusa.com.br'>nemer@nemerusa.com.br</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Nemer Stone Solutions</b> Contact Name: Jamile</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >  </td>
+<td ></td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>OCIDENTAL GRANITOS E MRMORES LTDA</b> (OCIDENTAL)</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Rua Jos Antonio do Amaral Quadras 5 & 6 Aeroporto Cachoeiro de Itapemirim ES  </td>
+<td >P: <a href ='tel:552835214231'>552835214231</a> F: 552835264058 </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Omega Natural Stone</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >10405 SHADY TRAIL 400 Dallas Dallas TX 75229 United States</td>
+<td >P: <a href ='tel:2146605393'>2146605393</a> M: <a href ='tel:2146605393'>2146605393</a> E: <a class='underline' href='mailto:sales@omeganaturalstone.com'>sales@omeganaturalstone.com</a> </td>
+<td >Dallas</td>
+<td >Net 30<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Pacific Quartz Surfaces LLP</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Khasra No. 772/183, Opp. National Plaza Hotel Rajasthan INDIA  </td>
+<td >P: <a href ='tel:0013122188344'>001-312-218-8344</a> E: <a class='underline' href='mailto:accounts@pacificquartzsurfaces.com'>accounts@pacificquartzsurfaces.com</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td >Internal Notes: puneet@pacificquartzsurfaces.com mayank@pacificquartzsurfaces.com exports@pacificquartzsurfaces.com<br>Delivery Instructions: puneet@pacificquartzsurfaces.com mayank@pacificquartzsurfaces.com exports@pacificquartzsurfaces.com</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Panini Granites (P) LTD</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Plot No: 8&9,BP SEZ,APIIC Growth Center Annangi(V) Prakasam(DT) AP 523211 India</td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Paradigm Granite Private Limited</b> (Paradgm)</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >293/2/3 & 295/2A/2B/2D/2E/2F,nallaganakothapalli, Hosur Taluk, Near Shoolagiri, Krishnagiri District 635 117 Tamil Nadu   </td>
+<td >P: <a href ='tel:918220006735'>918220006735</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>PAZIGRAM PAZINI GRANITOS E MARMORES LTDA</b> Contact Name: Lorran Belmock</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD ES 488-KM 30 SITIO DA SERRA - FRADE   Brazil</td>
+<td >M: <a href ='tel:2835334047'>2835334047</a> E: <a class='underline' href='mailto:pazigram@pazigram.com.br'>pazigram@pazigram.com.br</a> W: www.pazigram.com.br</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>PEDRA DO FRADE Exports</b> Contact Name: Altemir peixoto</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >  </td>
+<td >P: <a href ='tel:552835331714'>552835331714</a> E: <a class='underline' href='mailto:altemir@pedradofrade.com.br'>altemir@pedradofrade.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Pedra Rio Group Stone Rio</b> (Pedra Rio)</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rua Dezesseis,S/N -Distrito Industrial Cachoeiro de Itapemirim ES 29300-970 </td>
+<td ></td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>PEDRAS SAO JOAO LTDA</b> Contact Name: Fabrcio Alto</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ESTRADA SAO JOAO S/N - BAIRRO SAO JOAO VARGEM ALTA ES 29297-000 Brazil</td>
+<td >M: <a href ='tel:5528998857030'>+ 55 28 99885-7030</a> E: <a class='underline' href='mailto:fabricio.altoe@gmail.com'>fabricio.altoe@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Pemagran Pedra Marmores E Granitos</b> (Pemagran) Contact Name: Debraoh</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >GIRONDA CACHOEIRO DE ITAPEMIRIM ES 29326 </td>
+<td ></td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Petramar Corp.</b> Contact Name: Norbert</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >PO Box 948 Gig Harbor WA 98335 </td>
+<td >P: <a href ='tel:2532327102'>2532327102</a> E: <a class='underline' href='mailto:nvpetra@gmail.com'>nvpetra@gmail.com</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Phu Son Joint Stock Company</b> Contact Name: Mr. Tuan Cao</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Zone 7 Phu Thu Town Phu Thu Town HAI DUONG PROVINCE  Vietnam</td>
+<td >P: <a href ='tel:84869605888'>+84 8 6960 5888</a> E: <a class='underline' href='mailto:Empirestone2017@gmail.com'>empirestone2017@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Internal Notes: Beneficiary Name: Phu Son Joint Stock Company 
+Address: Zone 7, Phu Thu Town, Kinh Mon District, Hai Duong Province, Viet Nam Advising Bank: Vietnam Joint Stock Commercial Bank for Industry and Trade, Dong Hai Duong Branch
+Banks Address: Phu Thu Town, Kinh Mon District, Hai Duong Province, Viet Nam SWIFT Code: ICBVVNVX344  
+Account number: 110003248888<br>Delivery Instructions: Beneficiary Name: Phu Son Joint Stock Company 
+Address: Zone 7, Phu Thu Town, Kinh Mon District, Hai Duong Province, Viet Nam Advising Bank: Vietnam Joint Stock Commercial Bank for Industry and Trade, Dong Hai Duong Branch
+Banks Address: Phu Thu Town, Kinh Mon District, Hai Duong Province, Viet Nam SWIFT Code: ICBVVNVX344  
+Account number: 110003248888</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Planet of Granite</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >  </td>
+<td ></td>
+<td >Dallas</td>
+<td >180 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>PLANETA PEDRA LTDA</b> (PLANETA) Contact Name: Roger Goncalves</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >FAZENDA SO JOAQUIM ,SO JOAQUIM CACHOEIRO DE ITAPEMIRIM ES 29312290 </td>
+<td >P: <a href ='tel:2821024106'>282-102-4106</a> P: <a href ='tel:2821024141'>282-102-4141</a> E: <a class='underline' href='mailto:roger@planetapedra.com'>roger@planetapedra.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>PlanetStone Marble & Granite</b> (PlanetStone) Contact Name: Luca</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Afstralias 6, 3017 LIMASSOL Cyprus   </td>
+<td >P: <a href ='tel:17865013448'>1-786-501-3448</a> E: <a class='underline' href='mailto:luca@bonentegroup.com'>luca@bonentegroup.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Internal Notes: Nickname: Bonente Group<br>Delivery Instructions: Nickname: Bonente Group</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>PlanetStone Marble and Granites Srl</b> (Bonette Group)</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >  </td>
+<td ></td>
+<td >Dallas</td>
+<td >30 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Policast Marmores E Granitis Ltda</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Localidade Sao Vitorio Zona Rural   29360000 Brazil</td>
+<td >M: <a href ='tel:2833105475'>2833105475</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>POLICAST MARMORES E GRANITOS LTDA</b> Contact Name: Jeff</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >LOCALIDADE SO VITRIO - ZONA RURAL  29360000 Brazil</td>
+<td >P: <a href ='tel:552833105475'>(+55) 2833105475</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>PRIME GRANITOS</b> Contact Name: Amanda</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >BARRA DE SAO FRANCISCO ES  Brazil</td>
+<td >E: <a class='underline' href='mailto:amanda@primegranitos.com.br'>amanda@primegranitos.com.br</a> W: www.primegranitos.com.br</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Prizm Stone Corp</b> Contact Name: Jeremy</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >16927 E Euclid Ave 2 Spokane WA 99216 </td>
+<td ></td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>PSI STONES PRIVATE LIMITED</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >E-14, Sipcot Industrial Complex Phase-II Expansion-I,Mornapalli Vikkage Hosur TN 635130 India</td>
+<td >E: <a class='underline' href='mailto:psistones@gmail.com'>psistones@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>QSA Stone Inc</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td > CA 91766 </td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>QUALITA GRANITOS E MARMORES LTDA</b> Contact Name: Lvia Bermond</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD GOVERNADOR MARIO COVAS ,N:1966 CARIACICA ES 29157100 Brazil</td>
+<td >M: <a href ='tel:5527981183239'>+55 27981183239</a> E: <a class='underline' href='mailto:livia.bermond@qualitagroup.com'>livia.bermond@qualitagroup.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Quanzhou Yifeng Industries Corporation</b> (Yifeng Quartz) Contact Name: Taylor</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >18 YUREN ROAD,ANDONG DEVELOPMENT,ANHAI TOWN JINJIANG CITY QUANZHOU,FUJIAN  </td>
+<td >P: <a href ='tel:59582289666'>59582289666</a> F: 59582073388 </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Internal Notes: 30% advance, balance against B/L<br>Delivery Instructions: 30% advance, balance against B/L</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Quartzblue Quartzitos Do Brasil LTDA - ME</b> Contact Name: Carla Rodrigues</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD. GUMERCINDO MOURA NUNES SN KM 7,5 VILLAGE DA LUZ CACHOEIRO DE ITAPEMIRIM ES 29.309-362 Brazil</td>
+<td >P: <a href ='tel:552835241066'>+55 28 3524 1066</a> M: <a href ='tel:5527988008155'>+ 55 27 988008155</a> E: <a class='underline' href='mailto:CarlaRodriguescarla@quartzblue.com'>carlarodriguescarla@quartzblue.com</a> W: www.quartzblue.com</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Quarzo USA LLC</b> Contact Name: Sachin</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >10 Bristol Ct East Brunswick NJ 08816 United Arab Emirates</td>
+<td >E: <a class='underline' href='mailto:sachin@quarzousa.com'>sachin@quarzousa.com</a> </td>
+<td >Dallas</td>
+<td >Net 30<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Quarzo USA LLC - NJ</b> Contact Name: Rakesh</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >10 Bristol Ct East Brunswick NJ 08816 </td>
+<td >E: <a class='underline' href='mailto:sachin@quarzousa.com'>sachin@quarzousa.com</a> </td>
+<td >Dallas</td>
+<td >Net 30<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>R S G EXPORTS</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >B-74 (A) ROAD NO. 1C, V.K.I.AREA JAIPUR RAJASTAN 302013 India</td>
+<td >P: <a href ='tel:00911414108100'>0091-141-4108100</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>R S G Stones</b> (R S G) Contact Name: Ashish</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >B-74 (A) ROAD NO. 1C, JAIPUR RAJASTHAN 302013 </td>
+<td >P: <a href ='tel:00911414108100'>0091-141-4108100</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Rock Cutters</b> (Texas) Contact Name: Andrew</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >1722 Reserve ST Garland TX 75042 United States</td>
+<td >P: <a href ='tel:4692758250'>469-275-8250</a> E: <a class='underline' href='mailto:andrew@texascounterfitters.com'>andrew@texascounterfitters.com</a> W: www.texascounterfitters.com</td>
+<td >Dallas</td>
+<td >120 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Sai Ram Exports</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Sy No.1582A,2C, Budawada,(P&V),Chimakurthym Prakasam AP 523226 India</td>
+<td >E: <a class='underline' href='mailto:sales@sairamexports.in'>sales@sairamexports.in</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Santo Antonio</b> Contact Name: Juliano</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >  </td>
+<td >P: <a href ='tel:55282102192011'>5.5282102192e+011</a> E: <a class='underline' href='mailto:juliano@santonio.com.br'>juliano@santonio.com.br</a> </td>
+<td >Dallas</td>
+<td >120 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Sati Granites India (P) Ltd</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Survey No, 566/567, Kamandoddi(V), Parthakota Rd Krishnagiri(D) Hosur TN 635107 India</td>
+<td >P: <a href ='tel:918032444222'>+91 8032444222</a> E: <a class='underline' href='mailto:sales@sati.co.in'>sales@sati.co.in</a> W: www.sati.co.in</td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Sati Granites India (PVT) LTD.</b> (Sati) Contact Name: Velumurugan</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >#760/14, 3rd Floor, Raaj Towers 23rd Cross, 4th Main, K.R.Road BSK 2nd Stage Bangalore- 560070   </td>
+<td >P: <a href ='tel:919095364939'>919095364939</a> P: <a href ='tel:9180267111232432444222'>9180267111232432444222</a> F: 918026711125 </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Saudi Marble & Granite Factory Company</b> (SMGF) Contact Name: Abdul Kareem Haja</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >27553 Malaz Riyadh  11427 </td>
+<td >P: <a href ='tel:966114405800'>966114405800</a> E: <a class='underline' href='mailto:ahaja@smg.com.sa'>ahaja@smg.com.sa</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td >Internal Notes: 25% ADVANCE PAYMENT + 75% CAD<br>Delivery Instructions: 25% ADVANCE PAYMENT + 75% CAD</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Saudi Marmo</b> (Saudi Marmo) Contact Name: Mohamed Yussef</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Mining House Company Riyadh   </td>
+<td >P: <a href ='tel:96614388476'>96614388476</a> E: <a class='underline' href='mailto:m.youssef@saudimarmo.com'>m.youssef@saudimarmo.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>SAVA STONE s.r.l MARMI E GRANITI</b> (Sava Stone) Contact Name: Cenzo</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Via Casetta, 734 - CAP 37015 FRAZIONE DOMEGLIARA SANTAMBROGIO DI VALPOLICELLA VR 37015 Italy</td>
+<td >P: <a href ='tel:0456888191'>045 6888191</a> E: <a class='underline' href='mailto:italianquality@yahoo.com'>italianquality@yahoo.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Savannah Logistics</b> (SVLG) Contact Name: Mike/Kaleb</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >2300 1st ave South Seattle W 98108 </td>
+<td >P: <a href ='tel:2067637881100'>2067637881100</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Selva Stone Exports</b> (Selva) Contact Name: Pradeep</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Salinayanapalli, Village, Emakkalnatham, Post Bargur TN  </td>
+<td >P: <a href ='tel:914343295020'>914343295020</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>SENTHAMARAI MARBLES & GRANITES PRIVATE LIMITED</b> (SMG)</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >PLOT NO. 73,E-2,E-4,E-7 & 74 (PT), PHASE-II, Hosur TN 635109 </td>
+<td >E: <a class='underline' href='mailto:pravin@smgpl.in'>pravin@smgpl.in</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>SERRA NORTE GRANITOS Ltda</b> (Serra) Contact Name: Jamille</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rod Eng Fabiano Vivacqua S/N- BR 482 - KM 22 Cachoeiro de Itapemirim ES  </td>
+<td ></td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>SFC Center Inc</b> Contact Name: Andy Dong</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >1455 S Archibald Ave Ontario CA 91761 </td>
+<td >P: <a href ='tel:6262570901'>(626) 257-0901</a> P: <a href ='tel:9099300168'>(909) 930-0168</a> F: 909-930-0165 E: <a class='underline' href='mailto:sfcandyd@gmail.com'>sfcandyd@gmail.com</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td >Internal Notes: sfccenterorder@gmail.com<br>Delivery Instructions: sfccenterorder@gmail.com</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>SHREE RAM MEGA STRUCTURE PVT LTD</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Khasara No.630/2, Gram Panchayat Gidani Chandarmool, Dudu, Tehsil Mauzamabad Jaipur RJ 303348 India</td>
+<td >E: <a class='underline' href='mailto:srgm@srmsindia.com'>srgm@srmsindia.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Sinostone (Guangdong) Co.,Ltd</b> (Sinostone) Contact Name: Kerry</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >112 Minger Road, Mingcheng Town, Gaoming District Foshan GUANGDONG  </td>
+<td >P: <a href ='tel:8675783620360'>8675783620360</a> F: 8675783620362 E: <a class='underline' href='mailto:kerry@sinostone.cn'>kerry@sinostone.cn</a> </td>
+<td >Dallas</td>
+<td >30 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Siva Stone Inc</b> (Siva Stone)</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >  </td>
+<td ></td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Sree Ghayathri Rocks</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >No.40,12th Main,HMT Layout 1st Block,Vidyaranyapura Bangalore KA 560097 India</td>
+<td >M: <a href ='tel:919448474010'>+91 9448474010</a> E: <a class='underline' href='mailto:gayathrirocks6@gmail.com'>gayathrirocks6@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Sri Gayatri Granites</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >692/1,3rd Floor, 9th A Main Binnamangala, Indiranagar Bangalore KA 560038 India</td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Sri Manikanta Granites</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Flot No.202,Plot.No-8 Sowbhagya Residency,SBH Colony,Srinagar Colony Hyderabad TN 500073 India</td>
+<td >M: <a href ='tel:9849487786'>9849487786</a> E: <a class='underline' href='mailto:sreemanikanta@yahoo.com'>sreemanikanta@yahoo.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Sri Veera Brahmendra Expo</b> (SVBE)</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >D.no:5-120 Kotthakatla S Chimakurthis AP  </td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Stone Gallery Of Dallas INC</b> (Stone gallery)</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >3200 PARKWOOD BLVD 1010 Plano TX 75093 United States</td>
+<td >P: <a href ='tel:7323229694'>732-322-9694</a> E: <a class='underline' href='mailto:bari@stonegalleryofdallas.com'>bari@stonegalleryofdallas.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Stone Glamour S.r.l.</b> (Stone Glamour) Contact Name: Cenzo</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Via Traversa Monte Baldo, 5 Affi VERONA 37010 Italy</td>
+<td >P: <a href ='tel:390457156948'>+39 - 045 - 715.6948</a> F: 390456753386 E: <a class='underline' href='mailto:italianquality@yahoo.com'>italianquality@yahoo.com</a> W: www.stoneglamour.com</td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>STONEBRAX PROJETOS E GRANITOS LTDA</b> Contact Name: Antonio Zon</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Rua Doutor Jairo de Matos Pereira 600 - Sala 913 - Edif. Praia Corporate Praia da Costa  Vila Velha ES 29.101-310 Brazil</td>
+<td >E: <a class='underline' href='mailto:antonio@stonebrax.com'>antonio@stonebrax.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Stonehill LTDA</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Rua Carlos Lomba 601 Castelo ES  Brazil</td>
+<td >M: <a href ='tel:5528999174953'>+55 28 99917-4953</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Stones and Quartz</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >18 Pin Oak Drive North Brunswick NJ 08902 United States</td>
+<td >E: <a class='underline' href='mailto:accounts@stonesandquartz.com'>accounts@stonesandquartz.com</a> </td>
+<td >Dallas</td>
+<td >30 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Sunex Stones Private Limited</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Survey No. 1595 - 1599, 2163/1601 & 2165/1586 N.H. - 8, Jaipur - Ajmer Highway, Village  Gidani Tehsil  Mojmabad, Jaipur RJ 303009 India</td>
+<td >M: <a href ='tel:9828512789'>9828512789</a> E: <a class='underline' href='mailto:sales@sunexstones.com'>sales@sunexstones.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>SVG Exports Private Limited</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Sy No.839,Bairamangalam Village Denkanikottai Taluk Hosur TN 635109 India</td>
+<td >P: <a href ='tel:9443263117'>9443263117</a> E: <a class='underline' href='mailto:suresh@svgexports.com'>suresh@svgexports.com</a> </td>
+<td >Dallas</td>
+<td >120 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>SWETHA GRANITE INDUSTRIES(100% EOU)</b> (SGI)</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >H No. 7-1-761 MANKAMMA THOTA KARIMNAGAR TS 505 001 India</td>
+<td >M: <a href ='tel:918782254352'>91 878 2254352</a> E: <a class='underline' href='mailto:swethagraniteindustries@gmail.com'>swethagraniteindustries@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Swift Frieght(USA) Inc New Jersey</b> (Swift) Contact Name: Ruchir</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >11835 E SMITH AVE SANTA FE SPRINGS   </td>
+<td >P: <a href ='tel:5629260509'>562-926-0509</a> F: 562-926-0567 E: <a class='underline' href='mailto:ruchir@swiftcargo.com'>ruchir@swiftcargo.com</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>SYMBOL SINK</b> (Symbol) Contact Name: Jessie</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >No. 19, Jalan Kamunting 2, 48300 BKT Beruntung, Serendah Selangor   </td>
+<td >P: <a href ='tel:865925599330'>865925599330</a> E: <a class='underline' href='mailto:support@symbolsink.com'>support@symbolsink.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Target Stone LLC</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >14120 HEMPSTEAD RD HOUSTON TX 77040 </td>
+<td >P: <a href ='tel:83282'>832-82-STONE</a> E: <a class='underline' href='mailto:info@targetstoneusa.com'>info@targetstoneusa.com</a> </td>
+<td >Dallas</td>
+<td >Net 30<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>TBD</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >  </td>
+<td ></td>
+<td >Dallas</td>
+<td >30 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>TCE Stone</b> (TCE)</td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >  </td>
+<td >P: <a href ='tel:2538636668'>253-863-6668</a> E: <a class='underline' href='mailto:tcestonewa@gmail.com'>tcestonewa@gmail.com</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Terry Stone Inc</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >Domestic</td>
+<td >1905 NW 79th Ave Doral FL 33126 </td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>THE CORNERSTONE COLLECTION LLC</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >1756 Nestlewood Trail Orlando FL 32837 United States</td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>TIRUPATI STONEX PRIVATE LIMITED</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Khasra No. 1226/386, 1223/1218, 388 and 400, Village- Mokhampura,  Kishangarh Expressway Jaipur RJ 303604 India</td>
+<td >M: <a href ='tel:9783578607'>9783578607</a> E: <a class='underline' href='mailto:documents@tirupatistonesgroup.com'>documents@tirupatistonesgroup.com</a> W: EXPORT@TIRUPATISTONESGROUP.COM</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>TOLEDO GRANITOS DO BRASIL LTDA</b> (TOLEDO) Contact Name: Dulio Prates</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Cx Postal 43 Barra de Sao Francisco   </td>
+<td >P: <a href ='tel:552737568800'>55 27 37568800</a> E: <a class='underline' href='mailto:duilio@toledogranitos.com.br'>duilio@toledogranitos.com.br</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>TOLEDO MINERACAO LTDA - INDUSTRIA</b> Contact Name: Marcelle</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD BARRA DE SAO FRANCISCO A MANTENA S/N, KM 03 29800000 BARRA DE SAO FRANCISCO ES  </td>
+<td >P: <a href ='tel:552737568550'>55-27-37568550</a> E: <a class='underline' href='mailto:marcelle@toledomineracao.com.br'>marcelle@toledomineracao.com.br</a> W: www.toledomineracao.com.br</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Unimagral</b> Contact Name: Sabrina</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >ROD CACHOEIRO x FRADE S/N - KM 09 - SO JOS DO FRADE - ITAPECO ITAPEMIRIM, ES  29.330-00 </td>
+<td >E: <a class='underline' href='mailto:binamoreira@terra.com.br'>binamoreira@terra.com.br</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Variant - Reconcilation</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >  </td>
+<td ></td>
+<td >Dallas</td>
+<td >180 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Variant Surfaces (OPC) Private Limited</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >F.No.402,  Brundavan Park 4th Line,  Brundavan Gardens, Guntur AP 522007 India</td>
+<td >E: <a class='underline' href='mailto:variantsurfaces1988@gmail.com'>variantsurfaces1988@gmail.com</a> </td>
+<td >Dallas</td>
+<td >180 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Venkata Sri Balaji Exports</b> (VSBE) Contact Name: Bala</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Sy.No.s: 197/5, 197/8, 197/9, 197/13 & 197/14, NH-5, Maddipadu (M), Prakasam (DIST) ANDHRA PRADESH 523211 </td>
+<td >E: <a class='underline' href='mailto:sales@vsbexports.com'>sales@vsbexports.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Vickers Industrial Co., Ltd.</b> Contact Name: Leo</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >NO.25 MEI-KONG 8th STREET HUALIEN   </td>
+<td >M: <a href ='tel:88638236075'>+886-3-8236075</a> E: <a class='underline' href='mailto:amber@vickerstone.com'>amber@vickerstone.com</a> W: http://www.vks.com.tw</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Vietnam Quartz Joint Stock Company</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Lot B10, Thuy Van Industrian Zone Viet Tri City PHI THO  Vietnam</td>
+<td >P: <a href ='tel:84436367500'>+84 4 3636 7500</a> E: <a class='underline' href='mailto:vietquartz@gmail.com'>vietquartz@gmail.com</a> W: www.vietnamquartzstone.com</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Internal Notes: Account name:  Vietnam Quartz Joint Stock Company
+Account No: 114000202147
+Banks name: Vietnam Joint Stock Commercial Bank for Industry and Trade Phu Tho Branch
+Add: 1514 Hung Vuong Ave, Viet Tri City, Phu Tho Pro, S.R Vietnam
+SWIFT Code: ICBVVNVX240<br>Delivery Instructions: Account name:  Vietnam Quartz Joint Stock Company
+Account No: 114000202147
+Banks name: Vietnam Joint Stock Commercial Bank for Industry and Trade Phu Tho Branch
+Add: 1514 Hung Vuong Ave, Viet Tri City, Phu Tho Pro, S.R Vietnam
+SWIFT Code: ICBVVNVX240</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Vijay Granimarmo Private Limited</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Khatoli Mod, Near Salemabad Gate Makrana Road, Mega Highway, Kishangarh RJ 305801 India</td>
+<td >M: <a href ='tel:9602227666'>9602227666</a> E: <a class='underline' href='mailto:kuldeep@vijaygranimarmo.com'>kuldeep@vijaygranimarmo.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>VISHAKAM GRANITE EXPORTS</b> (Vishakam) Contact Name: Babu</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >PLOT No.70, NARASIMHA COLONY,PHASE-1, ALASANATHAM ROAD, Hosur TN 635109 </td>
+<td >P: <a href ='tel:919042100400'>919042100400</a> E: <a class='underline' href='mailto:babuvg9@gmail.com'>babuvg9@gmail.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>VITORIA STONE INDUSTRIA E COMERCIO SA</b> Contact Name: Fred Netto</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >R ATALYDES MOREIRA DE SOUZA, SN - LOTES 11 12 LOTES 11 12 CIVIT 1 sERRA  29168055 </td>
+<td >P: <a href ='tel:552798821047'>+ 55 ( 27) 98821-047</a> M: <a href ='tel:552798821047'>+ 55 ( 27) 98821-047</a> E: <a class='underline' href='mailto:fred@vitoriastone.com'>fred@vitoriastone.com</a> W: www.vitoriastone.com</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>VMN EXPORTS PRIVATE LIMITED</b></td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >11, SHREE APPARTMENT , SECTOR VIDAIHAR NAYAR Jaipu RJ 302039 India</td>
+<td >M: <a href ='tel:9928066623'>99280 66623</a> E: <a class='underline' href='mailto:abhishek@vmnstones.com'>abhishek@vmnstones.com</a> </td>
+<td >Dallas</td>
+<td >90 days<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>VOLPONI IMPORTACAO EXPORTACAO LTDA,</b> (Volponi) Contact Name: John</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >CORREGO ITA KM 02, S/N, CP 58, ZONA RURAL BARRA DE SAO FRANCISCO ES 29800-000 Brazil</td>
+<td >M: <a href ='tel:552737561050'>+55273756-1050</a> E: <a class='underline' href='mailto:john@fortunagranitos.com'>john@fortunagranitos.com</a> </td>
+<td >Dallas</td>
+<td >120 days<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Xclusive Marble Processing Pty Ltd</b></td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Stand 1509, C32 Road, Industrial Area PO Box 20 Karibib NAMIBIA 13008 </td>
+<td >M: <a href ='tel:264064550200'>+264 0 64 550 200</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Xiamen Jinyuan Stone Co., Ltd.</b> (Jinyuan) Contact Name: Kaya Guo</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >13F, Haiming Buliding Xiamen Huli District XIAMEN 361006 China</td>
+<td >P: <a href ='tel:865926532983'>865926532983</a> F: 865926532055 M: <a href ='tel:8613400617517'>8613400617517</a> E: <a class='underline' href='mailto:853338182@qq.com'>853338182@qq.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >Lang: ENGLISH<br>Internal Notes: Payment Term: T/T.  30%deposit ,the balance -70% paid after having the copy of B/L.<br>Delivery Instructions: Payment Term: T/T.  30%deposit ,the balance -70% paid after having the copy of B/L.</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Xiamen Tsianfan</b> (Xiamen Display) Contact Name: Jane</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >NO 23 Fanghu Industrial Zone Xiamen FUJIAN  </td>
+<td >P: <a href ='tel:13358376212'>1-335-837-6212</a> E: <a class='underline' href='mailto:jane@tsianfan.com'>jane@tsianfan.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>XIAMEN XIADONG STONE CO., LTD</b> (XIADONG)</td>
+<td >
+</td>
+<td >USD</td>
+<td >International</td>
+<td >Room702, No.23, Kangtai Li, Xinglong Road, Huli District, Xiamen, Fujian Province   </td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Yiguo International Limited</b> (Yiguo) Contact Name: Addy</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >10th Block, 3rd Area, ShiBoJiaYuan, Chancheng Foshan  528000 </td>
+<td >P: <a href ='tel:8675783052729'>8675783052729</a> F: 8675783052730 E: <a class='underline' href='mailto:addy886@163.com'>addy886@163.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Yixin Stone Company</b> (Hero Stone)</td>
+<td >
+</td>
+<td >USD</td>
+<td ></td>
+<td >Genghe Dadao Genghe, gaoming Dist Foshan GUANGDONG  </td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td ></td>
+</tr>
+</table>
+</body>
+</html>
+ 
+		</div>
+		</td>
+	</tr>
+</table>

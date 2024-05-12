@@ -1,0 +1,786 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Sheet 1</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="https://www.w3.org/1999/xhtml">
+	<head id="top_Head1"><title>
+	SPS - Non-Inventory Vendors
+</title></head>
+		
+	<object id='printControl' viewastext  style='display:none'
+	classid='clsid:1663ed61-23eb-11d2-b92f-008048fdd814'
+	codebase='http://www.meadroid.com/scriptx/ScriptX.cab#Version=6,1,432,1'>
+	</object>
+	<style type="text/css" media="print,screen" >	
+	table{
+	   width:100%;
+	  }
+		thead {
+		display:table-header-group;
+		}
+		tbody {
+		display:table-row-group;
+		}
+		'CSS to turn of Headers and Footers and Set margin in the Print List
+		'@page { margin: 0; }
+	</style>
+	<body onload='javascript:PrintPage(0.20, 0.20, 0.20, 0.20);'>
+	<table width=800 height=100% border=0 CellPading="0" bordercolor='red'>
+	  <tr>
+	    <td class='bgWhite' valign=top>
+		
+	<style>
+		.x-menu {
+		z-index: 15000;
+		background: #f6f6f6 url(../images/default/menu/menu.gif) repeat-y;
+		padding: 2px;
+		margin-left: -12px;
+		margin-top: 3px;
+		color: #54555a;
+	}
+	.ui-menu {
+		padding: 0px;
+		margin: 0;
+		display:block;
+			font-family: verdana,arial,helvetica,sans-serif;
+	     font-size: 10pt;
+	}
+	.ui-menu .ui-menu-item .ui-state-hover,
+	.ui-menu .ui-menu-item .ui-state-active {
+		margin: -1px;
+			background-color: #0097cf; 
+			border: 1px solid #0097cf; 
+	}
+	.ui-menu .ui-menu-item-wrapper {
+	    position: relative;
+	    padding: 5px 1em 6px 1.4em;
+	}
+	.ui-menu .ui-menu-item {
+	    margin: 0;
+	    border-bottom: 1px solid #ebebeb;
+	    padding: 0;
+	}
+	.ui-autocomplete {
+	    max-height: 305px;
+	    overflow-y: auto;
+	    /* prevent horizontal scrollbar */
+	    overflow-x: hidden;
+	  }
+	  input[class*=" autoComplete"] {
+		 cursor: auto;
+	    background-color: #fff;
+	}
+	</style>
+	
+<style>
+.UserGuide {font-size:1rem; font-family:Roboto;}
+
+</style>
+
+
+<table>
+	<tr>
+		<td class='padBigLeft' colspan='2' style="padding-top:10px;">
+			<div class="tab-pane active" id="Vendors">
+				<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Non-Inventory Vendors</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+<table><tr>
+<th align=left>Name</th>
+<th align=left>Print Name</th>
+<th align=left>Type</th>
+<th align=left>Address</th>
+<th align=left>Phones</th>
+<th align=left>Location</th>
+<th align=left>Pmt.Terms / Credit Limit</th>
+<th align=left>Account</th>
+<th align=left>Notes</th>
+<th align=left>Status</th>
+</tr>
+<tr>
+<td ><b>Airlift USA Inc</b> </td>
+<td >Airlift</td>
+<td ></td>
+<td >11099 S.La Cienega Blvd Suite 151, Los Angeles CA 90045 United States</td>
+<td >E: <a class='underline' href='mailto:accounts@airliftusa.com'>accounts@airliftusa.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>AJ Worldwide Services INC</b> </td>
+<td >AJ Worldwide SERVICES INC</td>
+<td ></td>
+<td >901 Penhorn Ave Ste 6 Saddle Brook Secaucus NJ 07094 United States</td>
+<td >M: <a href ='tel:2013481800'>2013481800</a> E: <a class='underline' href='mailto:kevin@ajww.com'>kevin@ajww.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Aries Global logistics INC</b> </td>
+<td >Aries Global logistics INC</td>
+<td ></td>
+<td >365 Franklin Avenue Franklin Square  NY 11010 United States</td>
+<td ></td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>BATHOLITE NATURAL STONE</b> Contact Name: Srini  </td>
+<td >Batholite</td>
+<td ></td>
+<td >302 Wellspring Ct Hockessin DE 19708 United States</td>
+<td >P: <a href ='tel:6513361712'>6513361712</a> M: <a href ='tel:6513361712'>6513361712</a> E: <a class='underline' href='mailto:sgarlapati@batholitestone.com'>sgarlapati@batholitestone.com</a> W: www.batholitestone.com</td>
+<td >Dallas</td>
+<td >60 Days<br></td>
+<td >1210-Freight</td>
+<td > &nbsp; This Vendor is a Freight Carrier</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Blackstone Shipping Americas INC</b> </td>
+<td >Blackstone Shipping</td>
+<td ></td>
+<td >33 Wood Avenue South Suite 600 Iselin NJ 08830 United States</td>
+<td >E: <a class='underline' href='mailto:namops@blackstoneshipping.com'>namops@blackstoneshipping.com</a> </td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Cargoways Warehousing & Trucking,Inc.</b> Contact Name: Jennifer Glover  </td>
+<td >Cargoways Warehousing & Trucking</td>
+<td ></td>
+<td >555 Gellhorn Houston TX 77029 United States</td>
+<td >P: <a href ='tel:71367205152012'>713 672 0515 EXT2012</a> M: <a href ='tel:8322603470'>832 260 3470</a> E: <a class='underline' href='mailto:jglover@cargowayslogistics.net'>jglover@cargowayslogistics.net</a> </td>
+<td >Dallas</td>
+<td >30 days<br></td>
+<td >1210-Freight</td>
+<td >Internal Notes: variant paid in name on Minagrex  $ 40,790 <br> &nbsp; This Vendor is a Freight Carrier</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Comage Container Lines INC</b> </td>
+<td >Comage Container</td>
+<td ></td>
+<td >1806 Stallion Ct Williamstown  NJ 08094 United States</td>
+<td >M: <a href ='tel:7325463758'>732 546 3758</a> E: <a class='underline' href='mailto:operations@shipcomage.com'>operations@shipcomage.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Crest Container Lines INC</b> </td>
+<td >Crest CCrest Container Lines INContainer Lines INC</td>
+<td ></td>
+<td >32001 32nd Avenue South Suite 400 Federalway WA 98001 United States</td>
+<td >P: <a href ='tel:2066793568'>206-679-3568</a> E: <a class='underline' href='mailto:ashrumochan@crestcontainers-us.com'>ashrumochan@crestcontainers-us.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>CRL TRucking LLC</b> Contact Name: Israiza Linares  </td>
+<td >CRL TRucking LLC</td>
+<td ></td>
+<td >4137 BANNER DR Houston TX 77013 United States</td>
+<td >P: <a href ='tel:7132959748'>713-295-9748</a> P: <a href ='tel:8328308854'>832-830-8854</a> E: <a class='underline' href='mailto:Israiza@crltrucking.com'>israiza@crltrucking.com</a> </td>
+<td >Dallas</td>
+<td >Net 15<br></td>
+<td >1210-Freight</td>
+<td > &nbsp; This Vendor is a Freight Carrier</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>DAHNAY LOGISTICS USA INC</b> Contact Name: Vijay  </td>
+<td >DAHNAY LOGISTICS USA INC</td>
+<td ></td>
+<td >One Cragwood Road 305A South Plainfield NJ 07080 United States</td>
+<td >P: <a href ='tel:9382210099'>9382210099</a> E: <a class='underline' href='mailto:usa.ops4@dahnaylogistics.com'>usa.ops4@dahnaylogistics.com</a> </td>
+<td >Dallas</td>
+<td >60 Days<br></td>
+<td >1210-Freight</td>
+<td > &nbsp; This Vendor is a Freight Carrier</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Danesi USA INC</b> </td>
+<td >Danesi USA INC</td>
+<td ></td>
+<td >  United States</td>
+<td ></td>
+<td >Dallas</td>
+<td ></td>
+<td ></td>
+<td > &nbsp; This Vendor is a Freight Carrier</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Del Corona & Scardigili USA</b> Contact Name: Marco  </td>
+<td >Del Corona & Scardigili USA</td>
+<td ></td>
+<td >616 Fm1960 650 Houston TX 77090 United States</td>
+<td >P: <a href ='tel:2812722204'>(281) 272-2204</a> M: <a href ='tel:2816063224'>(281) 606-3224</a> E: <a class='underline' href='mailto:marco.caminati@us.dcsfreight.com'>marco.caminati@us.dcsfreight.com</a> </td>
+<td >Dallas</td>
+<td >30 days<br></td>
+<td >1210-Freight</td>
+<td >Internal Notes: Wire Info
+Acct# 106706572
+Routing # 021000021
+Swift CHASUS33<br> &nbsp; This Vendor is a Freight Carrier</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>DHL Global Forwarding</b> </td>
+<td >DHL Global Forwarding</td>
+<td ></td>
+<td >1225 Mustang Dr Suite 100,P.O. Box 612648 Grapevine TX 76051 United States</td>
+<td ></td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>DSV Air & Sea Inc</b> </td>
+<td >DSV Air & Sea Inc</td>
+<td ></td>
+<td >PO BOX 200876 PITTSBURGH  PA 15251-0876 United States</td>
+<td ></td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Estimate Freight</b> </td>
+<td >Estimate Freight</td>
+<td ></td>
+<td >  United States</td>
+<td ></td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; This Vendor is a Freight Carrier</td>
+<td ></td>
+</tr>
+<tr>
+<td style='background-color:#ffeeee;'><b>Estimated Ocean Freight</b> </td>
+<td style='background-color:#ffeeee;'>Estimated Ocean Freight</td>
+<td style='background-color:#ffeeee;'></td>
+<td style='background-color:#ffeeee;'>  United States</td>
+<td style='background-color:#ffeeee;'></td>
+<td style='background-color:#ffeeee;'>Dallas</td>
+<td style='background-color:#ffeeee;'></td>
+<td style='background-color:#ffeeee;'></td>
+<td style='background-color:#ffeeee;'> &nbsp; </td>
+<td style='background-color:#ffeeee;'>Inactive</td>
+</tr>
+<tr>
+<td ><b>Estimated PTW</b> </td>
+<td >Estimated PTW</td>
+<td ></td>
+<td >  United States</td>
+<td ></td>
+<td >Dallas</td>
+<td ></td>
+<td ></td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Ford Credit -Dallas</b> </td>
+<td >Ford Credit</td>
+<td ></td>
+<td >PO Box 650575 Dallas TX 75265 United States</td>
+<td >P: <a href ='tel:8007277000'>800-727-7000</a> W: ford.com/finance</td>
+<td >Dallas</td>
+<td ></td>
+<td >1290-Auto and Truck Expenses</td>
+<td >Internal Notes: VIN#  :1FDWF7DC2JDF04898<br> &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>General Noli USA INC</b> </td>
+<td >General Noli USA INC</td>
+<td ></td>
+<td >220 Thorndale Avenue Bensenville, IL 60106 United States</td>
+<td >M: <a href ='tel:8478593181'>847 859 3181</a> E: <a class='underline' href='mailto:alessia.debbi@generalnoli.com'>alessia.debbi@generalnoli.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>GH Trans USA LL</b> </td>
+<td >GH Trans USA LL</td>
+<td ></td>
+<td >187 BAY 34 Street Brooklyn  NY 11214 United States</td>
+<td ></td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Gorman Mechanical</b> </td>
+<td >Gorman Mechanical</td>
+<td ></td>
+<td >1624 SE parkway Azle TX 76020 United States</td>
+<td >P: <a href ='tel:8172381616'>8172381616</a> W: www.gormanmechanical.com</td>
+<td >Dallas</td>
+<td ></td>
+<td ></td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Houston Port Trucking LLC</b> Contact Name: Belemm Solis  </td>
+<td >Houston Port Trucking LLC</td>
+<td ></td>
+<td >12725 Nimitz st Houston TX 77015 United States</td>
+<td >P: <a href ='tel:7136770106'>713-677-0106</a> F: 713-677-0409 E: <a class='underline' href='mailto:hpt.dispatch@yahoo.com'>hpt.dispatch@yahoo.com</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td >1210-Freight</td>
+<td > &nbsp; This Vendor is a Freight Carrier</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>ISSGF India Private Limited</b> </td>
+<td >ISSGF India Private Limited</td>
+<td ></td>
+<td >MKV J. Navaneethammal Towers, 1st Floor New No: 19, Old No: 09, Burkit Road, T. Nagar Chennai TN 600017, India</td>
+<td >E: <a class='underline' href='mailto:nayana.reddy@iss-gf.com'>nayana.reddy@iss-gf.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>JAP Services</b> Contact Name: Peter  </td>
+<td >JAP Services</td>
+<td ></td>
+<td >  United States</td>
+<td ></td>
+<td >Dallas</td>
+<td >Net 15<br></td>
+<td ></td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Kim Line</b> </td>
+<td >Kim Line</td>
+<td ></td>
+<td >371 Hoes Lane, Suite 204, Piscataway NJ 08854 United States</td>
+<td >E: <a class='underline' href='mailto:ops@kimline.us'>ops@kimline.us</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Kiswah Inc</b> </td>
+<td >Kiswah Inc</td>
+<td ></td>
+<td >2468 Fabens Rd Dallas TX 75229 United States</td>
+<td >M: <a href ='tel:9727992334'>972-799-2334</a> E: <a class='underline' href='mailto:dispatch@kiswahinc.com'>dispatch@kiswahinc.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Largent & Associates LLC</b> Contact Name: Kyle Largent  </td>
+<td >Largent & Associates LLC</td>
+<td ></td>
+<td >1111 Main Street, 100 Vancouver WA 98660 United States</td>
+<td >P: <a href ='tel:3604642525'>360-464-2525</a> E: <a class='underline' href='mailto:kylel@largent-assoc.com'>kylel@largent-assoc.com</a> W: http://largent-assoc.com/</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td ></td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Maersk Agency U.S.A., Inc.</b> </td>
+<td >Maersk Agency U.S.A., Inc.</td>
+<td ></td>
+<td >9300 Arrowpoint Boulevard Charlotte NC 28273-8136 United States</td>
+<td ></td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Marudhar Quartz Ocean Freight</b> </td>
+<td >Marudhar Quartz</td>
+<td ></td>
+<td >Jaya Nagar 4th Block Bangalore KA 560041 </td>
+<td ></td>
+<td >Dallas</td>
+<td ></td>
+<td ></td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Marudhar Rocks Ocean Freight</b> </td>
+<td >Marudhar Rocks Ocean Freight</td>
+<td ></td>
+<td >PLOT NO. E-25, SIPCOT INDUSTRIAL COMPLEX PHASE II, EXPN-II Hosur TN 635109 China</td>
+<td ></td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>MTS logistics INC</b> </td>
+<td >MTS logistics INC</td>
+<td ></td>
+<td >5 W 37TH ST RM 300 NEW YORK NY 10018 </td>
+<td >P: <a href ='tel:12125943117'>+12125943117</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td ></td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>NSF International</b> </td>
+<td >NSF International</td>
+<td ></td>
+<td >Dept. Lockbox # 771380 PO Box 77000 Detroit MI 48277-1380 United States</td>
+<td >P: <a href ='tel:7347698010'>734-769-8010</a> E: <a class='underline' href='mailto:payments@nsf.org'>payments@nsf.org</a> </td>
+<td >Dallas</td>
+<td >Net 30<br></td>
+<td >1020-Accounts Payable</td>
+<td >Internal Notes: FOR WIRE PAYMENTS  Remit to: JPMorgan Chase, New York, NY USA; SWIFT Code:CHASUS33 For payment: JPMorgan Chase (ABA Number 021000021) For Benefit: NSF International (Account Number 790465173) E-mail remittance info to  payments@nsf.org<br> &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Patagon Logistics LLC</b> </td>
+<td >Patagon Logistics LLC</td>
+<td ></td>
+<td >150 SE 2ND AVE SUITE 906, Miami FL 33131 United States</td>
+<td >M: <a href ='tel:13059461077'>+1 305-946-1077</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Pegasus Maritime INC</b> </td>
+<td >Pegasus Maritime INC</td>
+<td ></td>
+<td >PEGASUS MARITIME INC 250 W 39 ST. SUITE 602 NEW YORK NY 10018 United States</td>
+<td >E: <a class='underline' href='mailto:mary@pegasusmaritime.com'>mary@pegasusmaritime.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Progressive Wast Solutions</b> </td>
+<td >Progressive Wast Solutions</td>
+<td ></td>
+<td >1600 Singleton Dallas TX - TEXAS 75212 </td>
+<td >P: <a href ='tel:2147485221'>214-748-5221</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td >1275-Warehouse Expense</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>PROLOGIS-DALLAS</b> Contact Name: Tom Salkeld (Property Manager)  </td>
+<td >Prologis</td>
+<td ></td>
+<td >2021 McKinney Avenue 1500 Dallas TX 75201 United States</td>
+<td >P: <a href ='tel:9728849292'>972-884-9292</a> M: <a href ='tel:9728849237'>972-884-9237</a> E: <a class='underline' href='mailto:tsalkeld@prologis.com'>tsalkeld@prologis.com</a> W: www.prologis.com</td>
+<td >Dallas</td>
+<td ></td>
+<td >1275-Warehouse Expense</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>RTW Logistics INC</b> </td>
+<td >RTW Logistics INC</td>
+<td ></td>
+<td >500 E,CARSON PLAZA DR STE 224, CARSON CALIFORNIA  90746 United States</td>
+<td >P: <a href ='tel:18443071907'>+18443071907</a> E: <a class='underline' href='mailto:cs6.ec@rtwlogistics.net'>cs6.ec@rtwlogistics.net</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Ryan Law Partners LLP</b> </td>
+<td >Ryan Law Partners LLP</td>
+<td ></td>
+<td >3811 Turtle Creek Boulevard, Suite 780 Dallas TX 75219 United States</td>
+<td ></td>
+<td >Dallas</td>
+<td ></td>
+<td ></td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>SAVINO DEL BENE U.S.A. INC.</b> </td>
+<td >SAVINO DEL BENE U.S.A. INC.</td>
+<td ></td>
+<td >1650 CHARLES WILLARD STREET CARSON CA 90746 United States</td>
+<td >P: <a href ='tel:3106719969'>310-671-9969</a> E: <a class='underline' href='mailto:cecilia.rodriguez@savinodelbene.com'>cecilia.rodriguez@savinodelbene.com</a> W: www.sdbusa.it</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >1210-Freight</td>
+<td > &nbsp; This Vendor is a Freight Carrier</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>SBB Shipping Usa INC</b> </td>
+<td >SBB Shipping Usa INC</td>
+<td ></td>
+<td >464 Valley Brook Avenue 3rd Floor Lyndhurst  NJ 0707 United States</td>
+<td >M: <a href ='tel:2013196600'>201-319-6600</a> E: <a class='underline' href='mailto:john@sbbusa.com'>john@sbbusa.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Smartmode International Logistics LLC</b> </td>
+<td >Smartmode International Logistics</td>
+<td ></td>
+<td >525 Milltown Road SUITE 305 North Brunswick NJ 08902 United States</td>
+<td >P: <a href ='tel:7324225016'>732-422-5016</a> E: <a class='underline' href='mailto:cs2@smartmode.net'>cs2@smartmode.net</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Sprint Global Inc</b> </td>
+<td >Sprint Global Inc</td>
+<td ></td>
+<td >1150, Executive Circle Unit 3 CARY NC 27511 United States</td>
+<td >E: <a class='underline' href='mailto:support@sprintglobal.us'>support@sprintglobal.us</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Sunbelt Industrial Trucks</b> Contact Name: Jeff Harris  </td>
+<td >Sunbelt Industrial Trucks</td>
+<td ></td>
+<td >1617 Terre Colony Ct Dallas TX 75212 United States</td>
+<td >P: <a href ='tel:2148194150'>214-819-4150</a> M: <a href ='tel:2145832484'>214-583-2484</a> E: <a class='underline' href='mailto:pjohns@sunbelt-industrial.com'>pjohns@sunbelt-industrial.com</a> W: www.sunbelt-industrial.com</td>
+<td >Dallas</td>
+<td >CAD<br></td>
+<td >1300-Equipment Rental</td>
+<td >Internal Notes: For Invoices & Accounts 
+Contact-Pat Johns
+214-819-4150 ext. 2219
+Direct: 214-583-2484<br> &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Swift Cargo Inc</b> Contact Name: Ricky  </td>
+<td >Swift Cargo Inc</td>
+<td ></td>
+<td >11835 E.  Smith Ave Santa Fe Springs CA 90670 United States</td>
+<td ></td>
+<td >Dallas</td>
+<td >60 Days<br></td>
+<td >1210-Freight</td>
+<td > &nbsp; This Vendor is a Freight Carrier</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>TARA Energy</b> </td>
+<td >TARA Energy</td>
+<td ></td>
+<td >PO Box 301438 Dallas TX 75303 United States</td>
+<td >E: <a class='underline' href='mailto:customersupport@taraenergy.com'>customersupport@taraenergy.com</a> W: www.taraenergy.com</td>
+<td >Dallas</td>
+<td >30 days<br></td>
+<td >1400-A-1-Utilities Gas, Water, Electric</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>The Ultimate Freight Management</b> </td>
+<td >The Ultimate Freight Management</td>
+<td ></td>
+<td >9215 HALL RD. DOWNEY CA 90241 United States</td>
+<td >P: <a href ='tel:5622500588'>562) 250-0588</a> E: <a class='underline' href='mailto:krystal@tufmla.com'>krystal@tufmla.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Toyota Commercial Finance</b> </td>
+<td >Toyota Commercial Finance</td>
+<td ></td>
+<td >Toyota Industries Commercial Finance DEPT 2431 Carol Stream IL 60132 United States</td>
+<td >P: <a href ='tel:8005412315'>800-541-2315</a> E: <a class='underline' href='mailto:TICF_CS_SM@toyotacf.com'>ticf_cs_sm@toyotacf.com</a> </td>
+<td >Dallas</td>
+<td >30 days<br></td>
+<td >1300-Equipment Rental</td>
+<td >Internal Notes: Dealer: Mid Columbia Forklift Inc
+VIN- A2E460219
+Loan Num: 50265154-10000256844
+Accnt Num: 10372908
+From 11/22/2016-11/23/2021<br> &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Trans- Global Shipping Inc.</b> </td>
+<td >Trans- Global Shipping Inc.</td>
+<td ></td>
+<td >602b W. 5th Ave Naperville, Naperville, IL 60563 </td>
+<td ></td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Unify Logistic Solutions LLC</b> </td>
+<td >Unify Logistic Solutions LLC</td>
+<td ></td>
+<td >353 Middlestone Way Cuyahoga Falls, OH 44223-2886  OH 44223 United States</td>
+<td ></td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Unipac Shipping INC</b> </td>
+<td >Unipac Shipping INC</td>
+<td ></td>
+<td >182-16 147TH AVE .2NDFLOORJAMAICA  NY 11413 United States</td>
+<td >E: <a class='underline' href='mailto:NYIMPORT@UNIPACSHIPPING.COM'>nyimport@unipacshipping.com</a> </td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Value Logistics Inc</b> </td>
+<td >Value Logistics Inc</td>
+<td ></td>
+<td >2400 Herodian Way SE 220 Smyrna, GA  30080 United States</td>
+<td >M: <a href ='tel:6784875508'>6784875508</a> E: <a class='underline' href='mailto:accounts@valueloads.com'>accounts@valueloads.com</a> W: www.valueloads.com</td>
+<td >Dallas</td>
+<td >Net 30<br></td>
+<td >1210-Freight</td>
+<td > &nbsp; This Vendor is a Freight Carrier</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Vantec Hitachi Transport System (usa) inc</b> Contact Name: Mark Galm  </td>
+<td >Vantec</td>
+<td ></td>
+<td >1007 Virginia Avenue Suite 100 Atlanta GA 30354 United States</td>
+<td >P: <a href ='tel:42540171472140'>42540171472140</a> F: 425-401-7159 E: <a class='underline' href='mailto:terri.thomas@hitachi-vht.com'>terri.thomas@hitachi-vht.com</a> </td>
+<td >Dallas</td>
+<td >Cash<br></td>
+<td >1210-Freight</td>
+<td > &nbsp; This Vendor is a Freight Carrier</td>
+<td ></td>
+</tr>
+<tr>
+<td ><b>Worldwide Logistic Partner INC</b> </td>
+<td >Worldwide Logistic Partner INC</td>
+<td ></td>
+<td >1540 CARLEMONT DRIVE STE J, CRYSTAL LAKE, IL 60014, United States</td>
+<td ></td>
+<td >Dallas</td>
+<td ></td>
+<td >1210-Freight</td>
+<td > &nbsp; </td>
+<td ></td>
+</tr>
+</table>
+</body>
+</html>
+ 
+			</div>
+		</td>
+	</tr>
+</table>

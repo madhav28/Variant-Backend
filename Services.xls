@@ -1,0 +1,495 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Sheet 1</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="https://www.w3.org/1999/xhtml">
+	<head id="top_Head1"><title>
+	SPS - List Services
+</title></head>
+		
+	<object id='printControl' viewastext  style='display:none'
+	classid='clsid:1663ed61-23eb-11d2-b92f-008048fdd814'
+	codebase='http://www.meadroid.com/scriptx/ScriptX.cab#Version=6,1,432,1'>
+	</object>
+	<style type="text/css" media="print,screen" >	
+	table{
+	   width:100%;
+	  }
+		thead {
+		display:table-header-group;
+		}
+		tbody {
+		display:table-row-group;
+		}
+		'CSS to turn of Headers and Footers and Set margin in the Print List
+		'@page { margin: 0; }
+	</style>
+	<body onload='javascript:PrintPage(0.20, 0.20, 0.20, 0.20);'>
+	<table width=800 height=100% border=0 CellPading="0" bordercolor='red'>
+	  <tr>
+	    <td class='bgWhite' valign=top>
+		
+	<style>
+		.x-menu {
+		z-index: 15000;
+		background: #f6f6f6 url(../images/default/menu/menu.gif) repeat-y;
+		padding: 2px;
+		margin-left: -12px;
+		margin-top: 3px;
+		color: #54555a;
+	}
+	.ui-menu {
+		padding: 0px;
+		margin: 0;
+		display:block;
+			font-family: verdana,arial,helvetica,sans-serif;
+	     font-size: 10pt;
+	}
+	.ui-menu .ui-menu-item .ui-state-hover,
+	.ui-menu .ui-menu-item .ui-state-active {
+		margin: -1px;
+			background-color: #0097cf; 
+			border: 1px solid #0097cf; 
+	}
+	.ui-menu .ui-menu-item-wrapper {
+	    position: relative;
+	    padding: 5px 1em 6px 1.4em;
+	}
+	.ui-menu .ui-menu-item {
+	    margin: 0;
+	    border-bottom: 1px solid #ebebeb;
+	    padding: 0;
+	}
+	.ui-autocomplete {
+	    max-height: 305px;
+	    overflow-y: auto;
+	    /* prevent horizontal scrollbar */
+	    overflow-x: hidden;
+	  }
+	  input[class*=" autoComplete"] {
+		 cursor: auto;
+	    background-color: #fff;
+	}
+	</style>
+	
+<style>
+.UserGuide {font-size:1rem; font-family:Roboto;}
+
+</style>
+
+
+<table>
+
+<tr>
+		<td class='padBigLeft' colspan='2' style="padding-top:0px;padding-left: 0px;">
+			<div class="tab-pane active" id="Services">
+				<html xmlns:x="urn:schemas-microsoft-com:office:excel">
+<head>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Services</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml>
+<![endif]-->
+</head>
+<body>
+<table><tr>
+<th align=left>Name</th>
+<th align=left>SKU</th>
+<th align=left>Category</th>
+<th align=left>Type</th>
+<th align=left>Group</th>
+<th align=right>Price1</th>
+<th align=left>Units</th>
+<th align=left>Price Range</th>
+<th align=left>Vendor</th>
+<th align=left>Notes</th>
+<th align=left>Status</th>
+<th align=left>Usage</th>
+</tr>
+<tr>
+<td >A Frame</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$180.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >Bad Debt</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >Credit Card Processing Fee</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br> used in po<br> used in supplier credit memo<br></td>
+</tr>
+<tr>
+<td >Credit Card Processing Fee 1.5%</a></td>
+<td ></a></td>
+<td ></a></td>
+<td >Add Ons</a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br> used in po<br> used in supplier credit memo<br></td>
+</tr>
+<tr>
+<td >Credit Memo</a></td>
+<td ></a></td>
+<td >Credit</a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >Credit Transfer</a></td>
+<td ></a></td>
+<td >Rebate</a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >SF</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >Delivery</a></td>
+<td ></a></td>
+<td >Delivery</a></td>
+<td >Delivery</a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >Freight</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$5,000.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >  used in po<br> </td>
+</tr>
+<tr>
+<td >Freight - Surcharge 10%</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >Freight - Surcharge 5%</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >Freight - Surcharge 6%</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >Freight - Surcharge 7%</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >Freight - Surcharge 8%</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >Freight - Surcharge 9%</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >KING COUNTY TAX 9.5%</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >SF</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br>   </td>
+</tr>
+<tr>
+<td >NSF Charge</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$25.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br> used in po<br> used in supplier credit memo<br></td>
+</tr>
+<tr>
+<td >Ocean Freight, Duty and Clearance Charges</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >Rebate</a></td>
+<td ></a></td>
+<td >Rebate</a></td>
+<td >Service</a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >SF</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td > used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >Remnant</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$100.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br>  </td>
+</tr>
+<tr>
+<td >Restocking Fee</a></td>
+<td ></a></td>
+<td ></a></td>
+<td >Delivery</a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >CBM</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br>   </td>
+</tr>
+<tr>
+<td >Samples</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$1.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br> used in po<br> used in supplier credit memo<br></td>
+</tr>
+<tr>
+<td >Supplier Discount</a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td ></a></td>
+<td  class='right'>$0.0000</td>
+<td  >EA</td>
+<td  ></td>
+<td ></a></td>
+<td ></td>
+<td ></td>
+<td >used in SO<br> used in customer credit memo<br> used in po<br> used in supplier credit memo<br></td>
+</tr>
+</table>
+</body>
+</html>
+ 
+			</div>
+<script type="text/javascript">
+	$("#dbServiceCategory").select2();
+	$("#dbServiceType").select2();
+	$("#dbPriceRange").select2();
+	$("#dbServiceGroup").select2();
+	function submitForm(){
+	  var form;
+	  {
+		form = document.inputServicesForm;
+	  }
+	  
+	if(ValidateForm(form))
+	 { 
+       
+		{
+		location.href="listServices.aspx?list=listService&tab=&sort=&order=&searchBy=&searchOperator=&dbSearchValue1=&dbSearchValue2="+"&q8="+encodeURIComponent($("#dbServiceName").val())+"&q9="+($("#dbServiceCategory").val()).replace("#","%23")+"&q10="+($("#dbServiceType").val()).replace("#","%23")+"&q11="+($("#dbServiceGroup").val()).replace("#","%23")+"&q12="+($("#dbPriceRange").val()).replace("#","%23");
+		}
+		
+	 }
+	  return false;
+}
+function filterResult(alpha)
+{
+	
+	
+	{
+		location.href="listServices.aspx?list=listService&tab=&q5="+alpha;
+	}
+}
+</script>
+<style type="text/css">
+.well {
+  min-height: 20px;
+  padding: 15px;
+  margin-top: -8px;
+  margin-bottom: 15px;
+  background-color: #f5f5f5;
+  border: 1px solid #eee;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+</style>
