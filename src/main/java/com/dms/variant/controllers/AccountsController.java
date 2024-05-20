@@ -4,7 +4,6 @@ import com.dms.variant.domain.AccountsEntity;
 import com.dms.variant.domain.dto.AccountsDto;
 import com.dms.variant.mappers.Mapper;
 import com.dms.variant.services.AccountsService;
-import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;

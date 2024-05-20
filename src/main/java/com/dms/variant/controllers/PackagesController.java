@@ -1,6 +1,5 @@
 package com.dms.variant.controllers;
 
-import com.dms.variant.domain.InventoryEntity;
 import com.dms.variant.domain.PackagesEntity;
 import com.dms.variant.domain.dto.PackagesDto;
 import com.dms.variant.mappers.Mapper;

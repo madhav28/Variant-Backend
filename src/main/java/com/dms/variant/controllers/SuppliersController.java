@@ -1,8 +1,6 @@
 package com.dms.variant.controllers;
 
-import com.dms.variant.domain.CustomersEntity;
 import com.dms.variant.domain.SuppliersEntity;
-import com.dms.variant.domain.dto.CustomersDto;
 import com.dms.variant.domain.dto.SuppliersDto;
 import com.dms.variant.mappers.Mapper;
 import com.dms.variant.services.SuppliersService;

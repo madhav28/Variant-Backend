@@ -1,10 +1,8 @@
 package com.dms.variant.controllers;
 
-import com.dms.variant.domain.InventoryEntity;
 import com.dms.variant.domain.ServicesEntity;
 import com.dms.variant.domain.dto.ServicesDto;
 import com.dms.variant.mappers.Mapper;
-import com.dms.variant.mappers.impl.ServicesMapperImpl;
 import com.dms.variant.services.ServicesService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -12,7 +10,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.swing.text.html.Option;
 import java.util.Optional;
 
 @RestController

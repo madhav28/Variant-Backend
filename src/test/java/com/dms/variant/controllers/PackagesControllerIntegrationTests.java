@@ -1,7 +1,6 @@
 package com.dms.variant.controllers;
 
 import com.dms.variant.domain.PackagesEntity;
-import com.dms.variant.domain.ServicesEntity;
 import com.dms.variant.services.PackagesService;
 import com.dms.variant.util.TestDataUtil;
 import com.fasterxml.jackson.databind.ObjectMapper;
