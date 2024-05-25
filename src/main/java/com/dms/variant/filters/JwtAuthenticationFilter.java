@@ -24,12 +24,6 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         this.jwtTokenService = jwtTokenService;
     }
 
-//    private void setAuthorizationError(HttpServletResponse response) throws IOException {
-//        SecurityContextHolder.clearContext();
-//        response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-//        response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid/Expired Authorization token. Please re-login and try again.");
-//    }
-
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         Cookie authCookie = CookieUtil.readAuthCookie(request);

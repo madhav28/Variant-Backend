@@ -8,16 +8,16 @@ import jakarta.servlet.http.HttpServletRequest;
 public class CookieUtil {
 
     @Value("${spring.security.jwt.expiryInSec}")
-    private static int expiryTime;
+    public static int expiryTime = 100;
 
     //Hard-coded cookie name. Make sure it is in sync with NavbarComponent.
-    private static final String COOKIE_NAME = "JWT";
+    private static final String COOKIE_NAME = "jwtToken";
     private static final String COOKIE_PATH = "/";
 
     public static Cookie createLoginCookieFromToken(String token) {
         Cookie cookie = new Cookie(COOKIE_NAME, token);
         cookie.setPath(COOKIE_PATH);
-        cookie.setHttpOnly(true);
+        cookie.setHttpOnly(false);
         cookie.setMaxAge(expiryTime*1000);
         return cookie;
     }
