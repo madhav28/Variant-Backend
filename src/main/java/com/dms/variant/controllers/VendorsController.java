@@ -56,14 +56,16 @@ public class VendorsController {
     }
 
     @PatchMapping(path = "/vendors/{id}")
-    public ResponseEntity<VendorsDto> partialUpdateVendors(@PathVariable("id") long id, @RequestBody VendorsDto vendorsDto) {
-        if(!vendorsService.isExists(id)) {
+    public ResponseEntity<VendorsDto> partialUpdateVendors(@PathVariable("id") long id, @RequestBody VendorsDto dto) {
+        Optional<VendorsEntity> entityOptional = vendorsService.findOne(id);
+        if(entityOptional.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+        VendorsEntity entity = entityOptional.get();
 
-        vendorsDto.setId(id);
-        VendorsEntity vendorsEntity = vendorsMapper.mapFrom(vendorsDto);
-        return new ResponseEntity<>(vendorsMapper.mapTo(vendorsEntity), HttpStatus.OK);
+        vendorsMapper.updatePartial(entity, dto);
+        vendorsService.save(entity);
+        return new ResponseEntity<>(vendorsMapper.mapTo(entity), HttpStatus.OK);
     }
 
     @DeleteMapping(path = "/vendors/{id}")

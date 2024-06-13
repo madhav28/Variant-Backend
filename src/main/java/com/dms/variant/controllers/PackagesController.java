@@ -56,13 +56,16 @@ public class PackagesController {
     }
 
     @PatchMapping(path = "/packages/{id}")
-    public ResponseEntity<PackagesDto> partialUpdatePackages(@PathVariable("id") long id, @RequestBody PackagesDto packagesDto) {
-        if(!packagesService.isExists(id)) {
+    public ResponseEntity<PackagesDto> partialUpdatePackages(@PathVariable("id") long id, @RequestBody PackagesDto dto) {
+        Optional<PackagesEntity> entityOptional = packagesService.findOne(id);
+        if(entityOptional.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+        PackagesEntity entity = entityOptional.get();
 
-        PackagesEntity packagesEntity = packagesMapper.mapFrom(packagesDto);
-        return new ResponseEntity<>(packagesMapper.mapTo(packagesService.save(packagesEntity)), HttpStatus.OK);
+        packagesMapper.updatePartial(entity, dto);
+        packagesService.save(entity);
+        return new ResponseEntity<>(packagesMapper.mapTo(entity), HttpStatus.OK);
     }
 
     @DeleteMapping(path = "/packages/{id}")

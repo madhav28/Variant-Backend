@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class InventoryMapperImpl implements Mapper<InventoryEntity, InventoryDto>{
 
-    private ModelMapper modelMapper;
+    private final ModelMapper modelMapper;
 
     public InventoryMapperImpl(ModelMapper modelMapper) {
         this.modelMapper = modelMapper;
@@ -23,6 +23,11 @@ public class InventoryMapperImpl implements Mapper<InventoryEntity, InventoryDto
     @Override
     public InventoryEntity mapFrom(InventoryDto inventoryDto) {
         return modelMapper.map(inventoryDto, InventoryEntity.class);
+    }
+
+    @Override
+    public void updatePartial(InventoryEntity entity, InventoryDto dto) {
+        modelMapper.map(dto, entity);
     }
 
 }

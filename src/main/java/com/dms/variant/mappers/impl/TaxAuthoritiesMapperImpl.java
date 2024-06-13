@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class TaxAuthoritiesMapperImpl implements Mapper<TaxAuthoritiesEntity, TaxAuthoritiesDto> {
 
-    private ModelMapper modelMapper;
+    private final ModelMapper modelMapper;
 
     public TaxAuthoritiesMapperImpl(ModelMapper modelMapper) {
         this.modelMapper = modelMapper;
@@ -23,5 +23,10 @@ public class TaxAuthoritiesMapperImpl implements Mapper<TaxAuthoritiesEntity, Ta
     @Override
     public TaxAuthoritiesEntity mapFrom(TaxAuthoritiesDto taxAuthoritiesDto) {
         return modelMapper.map(taxAuthoritiesDto, TaxAuthoritiesEntity.class);
+    }
+
+    @Override
+    public void updatePartial(TaxAuthoritiesEntity entity, TaxAuthoritiesDto dto) {
+        modelMapper.map(dto, entity);
     }
 }

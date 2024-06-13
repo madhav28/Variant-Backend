@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ConsignmentsMapperImpl implements Mapper<ConsignmentsEntity, ConsignmentsDto> {
 
-    private ModelMapper modelMapper;
+    private final ModelMapper modelMapper;
 
     public ConsignmentsMapperImpl(ModelMapper modelMapper) {
         this.modelMapper = modelMapper;
@@ -23,5 +23,10 @@ public class ConsignmentsMapperImpl implements Mapper<ConsignmentsEntity, Consig
     @Override
     public ConsignmentsEntity mapFrom(ConsignmentsDto consignmentsDto) {
         return modelMapper.map(consignmentsDto, ConsignmentsEntity.class);
+    }
+
+    @Override
+    public void updatePartial(ConsignmentsEntity entity, ConsignmentsDto dto) {
+        modelMapper.map(dto, entity);
     }
 }

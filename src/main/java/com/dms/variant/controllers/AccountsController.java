@@ -15,9 +15,9 @@ import java.util.Optional;
 @RestController
 public class AccountsController {
 
-    private AccountsService accountsService;
+    private final AccountsService accountsService;
 
-    private Mapper<AccountsEntity, AccountsDto> accountsMapper;
+    private final Mapper<AccountsEntity, AccountsDto> accountsMapper;
 
     public AccountsController(AccountsService accountsService, Mapper<AccountsEntity, AccountsDto> accountsMapper) {
         this.accountsService = accountsService;
@@ -56,14 +56,16 @@ public class AccountsController {
     }
 
     @PatchMapping(path = "/accounts/{id}")
-    public ResponseEntity<AccountsDto> partialUpdateAccounts(@PathVariable("id") long id, @RequestBody AccountsDto accountsDto) {
-        if(!accountsService.isExists(id)) {
+    public ResponseEntity<AccountsDto> partialUpdateAccounts(@PathVariable("id") long id, @RequestBody AccountsDto dto) {
+        Optional<AccountsEntity> entityOptional = accountsService.findOne(id);
+        if(entityOptional.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+        AccountsEntity entity = entityOptional.get();
 
-        accountsDto.setId(id);
-        AccountsEntity accountsEntity = accountsMapper.mapFrom(accountsDto);
-        return new ResponseEntity<>(accountsMapper.mapTo(accountsEntity), HttpStatus.OK);
+        accountsMapper.updatePartial(entity, dto);
+        accountsService.save(entity);
+        return new ResponseEntity<>(accountsMapper.mapTo(entity), HttpStatus.OK);
     }
 
     @DeleteMapping(path = "/accounts/{id}")

@@ -56,14 +56,16 @@ public class TaxCodesController {
     }
 
     @PatchMapping(path = "/taxcodes/{id}")
-    public ResponseEntity<TaxCodesDto> partialUpdateTaxCodes(@PathVariable("id") long id, @RequestBody TaxCodesDto taxCodesDto) {
-        if(!taxCodesService.isExists(id)) {
+    public ResponseEntity<TaxCodesDto> partialUpdateTaxCodes(@PathVariable("id") long id, @RequestBody TaxCodesDto dto) {
+        Optional<TaxCodesEntity> entityOptional = taxCodesService.findOne(id);
+        if(entityOptional.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+        TaxCodesEntity entity = entityOptional.get();
 
-        taxCodesDto.setId(id);
-        TaxCodesEntity taxCodesEntity = taxCodesMapper.mapFrom(taxCodesDto);
-        return new ResponseEntity<>(taxCodesMapper.mapTo(taxCodesEntity), HttpStatus.OK);
+        taxCodesMapper.updatePartial(entity, dto);
+        taxCodesService.save(entity);
+        return new ResponseEntity<>(taxCodesMapper.mapTo(entity), HttpStatus.OK);
     }
 
     @DeleteMapping(path = "/taxcodes/{id}")

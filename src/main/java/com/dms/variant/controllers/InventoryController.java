@@ -60,15 +60,16 @@ public class InventoryController {
     }
 
     @PatchMapping(path="/inventory/{id}")
-    public ResponseEntity<InventoryDto> partialUpdateInventory(@PathVariable("id") Integer id, @RequestBody InventoryDto inventoryDto) {
-        if(!inventoryService.isExists(id)) {
+    public ResponseEntity<InventoryDto> partialUpdateInventory(@PathVariable("id") Integer id, @RequestBody InventoryDto dto) {
+        Optional<InventoryEntity> entityOptional = inventoryService.findOne(id);
+        if(entityOptional.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+        InventoryEntity entity = entityOptional.get();
 
-        InventoryEntity inventoryEntity = inventoryMapper.mapFrom(inventoryDto);
-        InventoryEntity updatedInventoryEntity = inventoryService.partitalUpdate(id, inventoryEntity);
-
-        return new ResponseEntity<>(inventoryMapper.mapTo(inventoryEntity), HttpStatus.OK);
+        inventoryMapper.updatePartial(entity, dto);
+        inventoryService.save(entity);
+        return new ResponseEntity<>(inventoryMapper.mapTo(entity), HttpStatus.OK);
     }
 
     @DeleteMapping(path="/inventory/{id}")

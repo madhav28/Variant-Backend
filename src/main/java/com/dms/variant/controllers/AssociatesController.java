@@ -56,14 +56,16 @@ public class AssociatesController {
     }
 
     @PatchMapping("/associates/{id}")
-    public ResponseEntity<AssociatesDto> partialUpdateAssociates(@PathVariable("id") long id, @RequestBody AssociatesDto associatesDto) {
-        if(!associatesService.isExists(id)) {
+    public ResponseEntity<AssociatesDto> partialUpdateAssociates(@PathVariable("id") long id, @RequestBody AssociatesDto dto) {
+        Optional<AssociatesEntity> entityOptional = associatesService.findOne(id);
+        if(entityOptional.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+        AssociatesEntity entity = entityOptional.get();
 
-        associatesDto.setId(id);
-        AssociatesEntity associatesEntity = associatesMapper.mapFrom(associatesDto);
-        return new ResponseEntity<>(associatesMapper.mapTo(associatesEntity),HttpStatus.OK);
+        associatesMapper.updatePartial(entity, dto);
+        associatesService.save(entity);
+        return new ResponseEntity<>(associatesMapper.mapTo(entity), HttpStatus.OK);
     }
 
     @DeleteMapping("/associates/{id}")

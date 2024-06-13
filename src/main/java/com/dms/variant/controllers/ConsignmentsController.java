@@ -56,14 +56,16 @@ public class ConsignmentsController {
     }
 
     @PatchMapping("/consignments/{id}")
-    public ResponseEntity<ConsignmentsDto> partialUpdateConsignments(@PathVariable("id") long id, @RequestBody ConsignmentsDto consignmentsDto) {
-        if(!consignmentsService.isExists(id)) {
+    public ResponseEntity<ConsignmentsDto> partialUpdateConsignments(@PathVariable("id") long id, @RequestBody ConsignmentsDto dto) {
+        Optional<ConsignmentsEntity> entityOptional = consignmentsService.findOne(id);
+        if(entityOptional.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+        ConsignmentsEntity entity = entityOptional.get();
 
-        consignmentsDto.setId(id);
-        ConsignmentsEntity consignmentsEntity = consignmentsMapper.mapFrom(consignmentsDto);
-        return new ResponseEntity<>(consignmentsMapper.mapTo(consignmentsEntity), HttpStatus.OK);
+        consignmentsMapper.updatePartial(entity, dto);
+        consignmentsService.save(entity);
+        return new ResponseEntity<>(consignmentsMapper.mapTo(entity), HttpStatus.OK);
     }
 
     @DeleteMapping("/consignments/{id}")

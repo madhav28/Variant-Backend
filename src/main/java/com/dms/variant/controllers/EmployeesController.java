@@ -56,14 +56,16 @@ public class EmployeesController {
     }
 
     @PatchMapping("/employees/{id}")
-    public ResponseEntity<EmployeesDto> partialUpdateEmployees(@PathVariable("id") long id, @RequestBody EmployeesDto employeesDto) {
-        if(!employessService.isExists(id)) {
+    public ResponseEntity<EmployeesDto> partialUpdateEmployees(@PathVariable("id") long id, @RequestBody EmployeesDto dto) {
+        Optional<EmployeesEntity> entityOptional = employessService.findOne(id);
+        if(entityOptional.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+        EmployeesEntity entity = entityOptional.get();
 
-        employeesDto.setId(id);
-        EmployeesEntity employeesEntity = employeesMapper.mapFrom(employeesDto);
-        return new ResponseEntity<>(employeesMapper.mapTo(employeesEntity), HttpStatus.OK);
+        employeesMapper.updatePartial(entity, dto);
+        employessService.save(entity);
+        return new ResponseEntity<>(employeesMapper.mapTo(entity), HttpStatus.OK);
     }
 
     @DeleteMapping("/employees/{id}")

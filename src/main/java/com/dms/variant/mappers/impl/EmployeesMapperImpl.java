@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class EmployeesMapperImpl implements Mapper<EmployeesEntity, EmployeesDto> {
 
-    private ModelMapper modelMapper;
+    private final ModelMapper modelMapper;
 
     public EmployeesMapperImpl(ModelMapper modelMapper) {
         this.modelMapper = modelMapper;
@@ -23,5 +23,10 @@ public class EmployeesMapperImpl implements Mapper<EmployeesEntity, EmployeesDto
     @Override
     public EmployeesEntity mapFrom(EmployeesDto employeesDto) {
         return modelMapper.map(employeesDto, EmployeesEntity.class);
+    }
+
+    @Override
+    public void updatePartial(EmployeesEntity entity, EmployeesDto dto) {
+        modelMapper.map(dto, entity);
     }
 }

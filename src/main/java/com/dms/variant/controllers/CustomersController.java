@@ -56,13 +56,16 @@ public class CustomersController {
     }
 
     @PatchMapping(path = "/customers/{id}")
-    public ResponseEntity<CustomersDto> partialUpdateCustomers(@PathVariable("id") long id, @RequestBody CustomersDto customersDto) {
-        if(!customersService.isExists(id)) {
+    public ResponseEntity<CustomersDto> partialUpdateCustomers(@PathVariable("id") long id, @RequestBody CustomersDto dto) {
+        Optional<CustomersEntity> entityOptional = customersService.findOne(id);
+        if(entityOptional.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+        CustomersEntity entity = entityOptional.get();
 
-        CustomersEntity customersEntity = customersMapper.mapFrom(customersDto);
-        return new ResponseEntity<>(customersMapper.mapTo(customersService.save(customersEntity)), HttpStatus.OK);
+        customersMapper.updatePartial(entity, dto);
+        customersService.save(entity);
+        return new ResponseEntity<>(customersMapper.mapTo(entity), HttpStatus.OK);
     }
 
     @DeleteMapping(path = "customers/{id}")

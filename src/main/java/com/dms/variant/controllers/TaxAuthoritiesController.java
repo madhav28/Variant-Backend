@@ -56,14 +56,16 @@ public class TaxAuthoritiesController {
     }
 
     @PatchMapping(path = "/taxauthorities/{id}")
-    public ResponseEntity<TaxAuthoritiesDto> partialUpdateTaxAuthorities(@PathVariable("id") long id, @RequestBody TaxAuthoritiesDto taxAuthoritiesDto) {
-        if(!taxAuthoritiesService.isExists(id)) {
+    public ResponseEntity<TaxAuthoritiesDto> partialUpdateTaxAuthorities(@PathVariable("id") long id, @RequestBody TaxAuthoritiesDto dto) {
+        Optional<TaxAuthoritiesEntity> entityOptional = taxAuthoritiesService.findOne(id);
+        if(entityOptional.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+        TaxAuthoritiesEntity entity = entityOptional.get();
 
-        taxAuthoritiesDto.setId(id);
-        TaxAuthoritiesEntity taxAuthoritiesEntity = taxAuthoritiesMapper.mapFrom(taxAuthoritiesDto);
-        return new ResponseEntity<>(taxAuthoritiesMapper.mapTo(taxAuthoritiesEntity), HttpStatus.OK);
+        taxAuthoritiesMapper.updatePartial(entity, dto);
+        taxAuthoritiesService.save(entity);
+        return new ResponseEntity<>(taxAuthoritiesMapper.mapTo(entity), HttpStatus.OK);
     }
 
     @DeleteMapping(path = "/taxauthorities/{id}")
